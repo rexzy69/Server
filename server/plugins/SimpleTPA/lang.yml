@@ -1,0 +1,109 @@
+# 
+#      Welcome to the Language configuration!      #
+#                                                  #
+# You can use the avaliable lenguages here, or you #
+# can create one and use it putting the language   #
+# prefix in the 'language:' section!               #
+#                                                  #
+# Feel free to send me the translation if you want #
+# to share it. (your name will be on contributors  #
+# section!)                                        #
+# Contact me via Skype or PM on Spigot :)          #
+#                                                  #
+# Skype: nahueldolores || Spigot: NahuLD           #
+#                                                  #
+# Regards, NahuLD                                  #
+language: en_US
+en_US:
+  prefix: '&9TPA > '
+  request:
+    deny:
+      requester: '&cYour request to the player &7%requested% &chas been denied!'
+      requested: '&aDenied the teleport request from the player &7%requester%&a!'
+    send:
+      normal:
+        requester: '&aSent the teleport request to the player &7%requested%&a!'
+        requested: '&aThe player &7%requester% &awants to teleport into your place!'
+      here:
+        requester: '&aSent the teleport request to the player &7%requested%&a!'
+        requested: '&aThe player &7%requester% &awants you to teleport into his place!'
+    accept:
+      requester: '&aYour teleport request for the player &7%requested% &ahas been
+        accepted!'
+      requested: '&aTeleport request for &7%requester% &ahas been accepted!'
+    cancelled: '&cThe teleport has been interrupted.'
+    timed-out: '&cThe teleport request for &7%requested% &chas expired!'
+    teleporting: '&aTeleporting...'
+  error:
+    not-player: '&cYou must be a player in order to do this!'
+    syntax: '&cSyntax error: &7/tpa <player> | /tpahere <player>'
+    already-sent: '&cYou can not send more than one teleport request at once!'
+    not-found: '&cThe player you are looking for cannot be found!'
+    no-petition: '&cYou do not have any pending teleport requests!'
+    no-permission: '&cYou do not have the permissions to use this command!'
+    tp-disabled: '&cThat player has the TPA feature disabled!'
+  success:
+    reload-config: '&aAll configs were reloaded!'
+    toggle: '&aToggled function turned &c%boolean%'
+de_DE:
+  prefix: '&9[TPA] '
+  request:
+    deny:
+      requester: '&b&l%requested% &r&fhat deine Anfrage &4abgelehnt!'
+      requested: '&r&fDu hast die Anfrage von &b&l%requester% &r&4abgelehnt!'
+    send:
+      normal:
+        requester: '&rTeleportafrage an &b&l%requested% &r&fgesendet'
+        requested: '&b&l%requester &r&f hat dir eine Teleportanfrage gesendet'
+      here:
+        requester: '&aSent the teleport request to the player &7%requested%&a!'
+        requested: '&aThe player &7%requester% &awants you to teleport into his place!'
+    accept:
+      requester: '&b&l%requested% &r&fhat deine Anfrage &2angenommen!'
+      requested: '&rDu hast die Anfrage von &b&l%requester% &r&2angenommen!'
+    timed-out: '&cTeleportanfrage ist ausgelaufen!'
+    cancelled: '&cThe teleport has been interrupted.'
+    teleporting: '&aTeleportiere...'
+  error:
+    not-player: '&cDu musst ein Spieler sein um das zu k�nnen!'
+    syntax: '&cSyntax error: &7/tpa <player>'
+    already-sent: '&cDu kannst nicht mehr als eine Anfrage gleichzeitig schicken!'
+    not-found: '&cSpieler nicht gefunden!'
+    no-petition: '&cDu hast aktuell keine Anfragen!'
+    no-permission: '&cDazu fehlen dir die n�tigen Permissions!'
+    not-allowed: '&cDu kannst dich momentan nicht zu &b&l%requested% &r&cteleportieren!'
+    tp-disabled: '&cThat player has the TPA feature disabled!'
+  success:
+    reload-config: '&aAlle configs wurden neu geladen!'
+    toggle: '&aToggled function turned &c%boolean%'
+es_LA:
+  prefix: '&9TPA > '
+  request:
+    deny:
+      requester: '&cTu petici�n al jugador &7%requested% &cha sido rechazada!'
+      requested: '&aHas rechazado la petici�n de teletransportaci�n por &7%requester%&a!'
+    send:
+      normal:
+        requester: '&aHas enviado la petici�n de teletransportaci�n a &7%requested%&a!'
+        requested: '&aEl jugador &7%requester% &aquiere teletransportarse a tu posici�n!'
+      here:
+        requester: '&aHas enviado la petici�n de teletransportaci�n a &7%requested%&a!'
+        requested: '&aEl jugador &7%requester% &aquiere teletransportarte a su posici�n!'
+    accept:
+      requester: '&aTu petici�n de teletransportaci�n para &7%requested% &aha sido
+        aceptada!'
+      requested: '&aPeticion de teletransportaci�n para &7%requester% &aha sido aceptada!'
+    timed-out: '&cLa peticion de teletransportaci�n para &7%requested% &cha expirado!'
+    cancelled: '&cLa teleportaci�n ha sido interrumpida.'
+    teleporting: '&aTeleportando...'
+  error:
+    not-player: '&cDebes ser un jugador para hacer esto!'
+    syntax: '&cError de sintaxis: &7/tpa <player>'
+    already-sent: '&cNo puedes enviar mas de una invitaci�n al mismo tiempo!'
+    not-found: '&cEl jugador que buscas no ha sido encontrado!'
+    no-petition: '&cNo tienes ninguna petici�n!'
+    no-permission: '&cNo tienes los suficientes permisos para utilizar este comando!'
+    tp-disabled: '&cAquel jugador tiene las invitaciones desactivadas!'
+  success:
+    reload-config: '&aTodas las configuraciones fueron recargadas!'
+    toggle: '&aFuncion de TPA: &c%boolean%'

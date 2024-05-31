@@ -1,0 +1,1479 @@
+[11:48:49] [Server thread/INFO]: Starting minecraft server version 1.8.8
+[11:48:49] [Server thread/INFO]: Loading properties
+[11:48:49] [Server thread/INFO]: Default game type: SURVIVAL
+[11:48:49] [Server thread/INFO]: This server is running CraftBukkit version git-PaperSpigot-445 (MC: 1.8.8) (Implementing API version 1.8.8-R0.1-SNAPSHOT)
+[11:48:49] [Server thread/INFO]: Debug logging is disabled
+[11:48:49] [Server thread/INFO]: Spigot Timings: true - Verbose: true - Interval: 5m - Length: 60m
+[11:48:49] [Server thread/INFO]: Server Ping Player Sample Count: 12
+
+[11:48:49] [Server thread/INFO]: Using 4 threads for Netty based IO
+[11:48:49] [Server thread/INFO]: Data value allowed items: 
+[11:48:49] [Server thread/WARN]: java.lang.NoSuchFieldException: modifiers
+
+[11:48:49] [Server thread/WARN]: 	at java.base/java.lang.Class.getDeclaredField(Class.java:2782)
+
+[11:48:49] [Server thread/WARN]: 	at org.github.paperspigot.PaperSpigotConfig.stackableBuckets(PaperSpigotConfig.java:192)
+
+[11:48:49] [Server thread/WARN]: 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+
+[11:48:49] [Server thread/WARN]: 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+
+[11:48:49] [Server thread/WARN]: 	at org.github.paperspigot.PaperSpigotConfig.readConfig(PaperSpigotConfig.java:84)
+
+[11:48:49] [Server thread/WARN]: 	at org.github.paperspigot.PaperSpigotConfig.init(PaperSpigotConfig.java:62)
+
+[11:48:49] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.DedicatedServer.init(DedicatedServer.java:181)
+
+[11:48:49] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:563)
+
+[11:48:49] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+[11:48:49] [Server thread/INFO]: Generating keypair
+[11:48:50] [Server thread/INFO]: Starting Minecraft server on localhost:25565
+[11:48:50] [Server thread/INFO]: Your platform does not provide complete low-level API for accessing direct buffers reliably. Unless explicitly requested, heap buffer will always be preferred to avoid potential system unstability.
+[11:48:50] [Server thread/INFO]: Using default channel type
+[11:48:50] [Server thread/INFO]: Set PluginClassLoader as parallel capable
+[11:48:50] [Server thread/INFO]: [SimpleTPA] Loading SimpleTPA v2.1.12
+[11:48:50] [Server thread/INFO]: [SimpleTpa] Loading SimpleTpa v6.4
+[11:48:50] [Server thread/INFO]: [SimpleHomes] Loading SimpleHomes v2.2
+[11:48:50] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v6.1;no_git_id
+[11:48:50] [Server thread/INFO]: [freemannlifesteal] Loading freemannlifesteal v1.0
+[11:48:50] [Server thread/INFO]: [ArmorPlus] Loading ArmorPlus v1.1
+[11:48:50] [Server thread/INFO]: [LoginSecurity] Loading LoginSecurity v3.2.0
+[11:48:50] [Server thread/INFO]: [SilkSpawners] Loading SilkSpawners v3.6.2
+[11:48:50] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[11:48:50] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[11:48:50] [Server thread/WARN]: Whilst this makes it possible to use BungeeCord, unless access to your server is properly restricted, it also opens up the ability for hackers to connect with any username they choose.
+[11:48:50] [Server thread/WARN]: Please see http://www.spigotmc.org/wiki/firewall-guide/ for further information.
+[11:48:50] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[11:48:50] [Server thread/INFO]: **** Beginning UUID conversion, this may take A LONG time ****
+[11:48:50] [Server thread/INFO]: Preparing level "world"
+[11:48:50] [Server thread/INFO]: -------- World Settings For [world] --------
+[11:48:50] [Server thread/INFO]: Mob Spawn Range: 4
+[11:48:50] [Server thread/INFO]: Anti X-Ray: true
+[11:48:50] [Server thread/INFO]: 	Engine Mode: 1
+[11:48:50] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[11:48:50] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[11:48:50] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[11:48:50] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[11:48:50] [Server thread/INFO]: Cane Growth Modifier: 100%
+[11:48:50] [Server thread/INFO]: Melon Growth Modifier: 100%
+[11:48:50] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[11:48:50] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[11:48:50] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[11:48:50] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[11:48:50] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[11:48:50] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[11:48:50] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[11:48:50] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[11:48:50] [Server thread/INFO]: Random Lighting Updates: false
+[11:48:50] [Server thread/INFO]: Structure Info Saving: true
+[11:48:50] [Server thread/INFO]: Sending up to 10 chunks per packet
+[11:48:50] [Server thread/INFO]: Max Entity Collisions: 8
+[11:48:50] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[11:48:50] [Server thread/INFO]: Max TNT Explosions: 100
+[11:48:50] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[11:48:50] [Server thread/INFO]: Item Despawn Rate: 6000
+[11:48:50] [Server thread/INFO]: Item Merge Radius: 2.5
+[11:48:50] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[11:48:50] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[11:48:50] [Server thread/INFO]: View Distance: 4
+[11:48:50] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[11:48:50] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[11:48:50] [Server thread/INFO]: Clear tick list: false
+[11:48:50] [Server thread/INFO]: Experience Merge Radius: 3.0
+[11:48:50] [Server thread/INFO]: -------- World Settings For [world] --------
+[11:48:50] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
+[11:48:50] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
+[11:48:50] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
+[11:48:50] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
+[11:48:50] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
+[11:48:50] [Server thread/INFO]: Water over lava flow speed: 5
+[11:48:50] [Server thread/INFO]: Fix TNT cannons: false
+[11:48:50] [Server thread/INFO]: Allow undead horse types to be leashed: false
+[11:48:50] [Server thread/INFO]: Keep spawn chunk loaded: true
+[11:48:50] [Server thread/INFO]: World async lighting: false
+[11:48:50] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
+[11:48:50] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
+[11:48:50] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[11:48:50] [Server thread/INFO]: Mob Spawn Range: 4
+[11:48:50] [Server thread/INFO]: Anti X-Ray: true
+[11:48:50] [Server thread/INFO]: 	Engine Mode: 1
+[11:48:50] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[11:48:50] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[11:48:50] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[11:48:50] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[11:48:50] [Server thread/INFO]: Cane Growth Modifier: 100%
+[11:48:50] [Server thread/INFO]: Melon Growth Modifier: 100%
+[11:48:50] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[11:48:50] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[11:48:50] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[11:48:50] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[11:48:50] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[11:48:50] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[11:48:50] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[11:48:50] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[11:48:50] [Server thread/INFO]: Random Lighting Updates: false
+[11:48:50] [Server thread/INFO]: Structure Info Saving: true
+[11:48:50] [Server thread/INFO]: Sending up to 10 chunks per packet
+[11:48:50] [Server thread/INFO]: Max Entity Collisions: 8
+[11:48:50] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[11:48:50] [Server thread/INFO]: Max TNT Explosions: 100
+[11:48:50] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[11:48:50] [Server thread/INFO]: Item Despawn Rate: 6000
+[11:48:50] [Server thread/INFO]: Item Merge Radius: 2.5
+[11:48:50] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[11:48:50] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[11:48:50] [Server thread/INFO]: View Distance: 4
+[11:48:50] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[11:48:50] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[11:48:50] [Server thread/INFO]: Clear tick list: false
+[11:48:50] [Server thread/INFO]: Experience Merge Radius: 3.0
+[11:48:50] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[11:48:50] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
+[11:48:50] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
+[11:48:50] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
+[11:48:50] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
+[11:48:50] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
+[11:48:50] [Server thread/INFO]: Water over lava flow speed: 5
+[11:48:50] [Server thread/INFO]: Fix TNT cannons: false
+[11:48:50] [Server thread/INFO]: Allow undead horse types to be leashed: false
+[11:48:50] [Server thread/INFO]: Keep spawn chunk loaded: true
+[11:48:50] [Server thread/INFO]: World async lighting: false
+[11:48:50] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
+[11:48:50] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
+[11:48:51] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[11:48:51] [Server thread/INFO]: Mob Spawn Range: 4
+[11:48:51] [Server thread/INFO]: Anti X-Ray: true
+[11:48:51] [Server thread/INFO]: 	Engine Mode: 1
+[11:48:51] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[11:48:51] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[11:48:51] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[11:48:51] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[11:48:51] [Server thread/INFO]: Cane Growth Modifier: 100%
+[11:48:51] [Server thread/INFO]: Melon Growth Modifier: 100%
+[11:48:51] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[11:48:51] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[11:48:51] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[11:48:51] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[11:48:51] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[11:48:51] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[11:48:51] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[11:48:51] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[11:48:51] [Server thread/INFO]: Random Lighting Updates: false
+[11:48:51] [Server thread/INFO]: Structure Info Saving: true
+[11:48:51] [Server thread/INFO]: Sending up to 10 chunks per packet
+[11:48:51] [Server thread/INFO]: Max Entity Collisions: 8
+[11:48:51] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[11:48:51] [Server thread/INFO]: Max TNT Explosions: 100
+[11:48:51] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[11:48:51] [Server thread/INFO]: Item Despawn Rate: 6000
+[11:48:51] [Server thread/INFO]: Item Merge Radius: 2.5
+[11:48:51] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[11:48:51] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[11:48:51] [Server thread/INFO]: View Distance: 4
+[11:48:51] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[11:48:51] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[11:48:51] [Server thread/INFO]: Clear tick list: false
+[11:48:51] [Server thread/INFO]: Experience Merge Radius: 3.0
+[11:48:51] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[11:48:51] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
+[11:48:51] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
+[11:48:51] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
+[11:48:51] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
+[11:48:51] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
+[11:48:51] [Server thread/INFO]: Water over lava flow speed: 5
+[11:48:51] [Server thread/INFO]: Fix TNT cannons: false
+[11:48:51] [Server thread/INFO]: Allow undead horse types to be leashed: false
+[11:48:51] [Server thread/INFO]: Keep spawn chunk loaded: true
+[11:48:51] [Server thread/INFO]: World async lighting: false
+[11:48:51] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
+[11:48:51] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
+[11:48:51] [Server thread/INFO]: Preparing start region for level 0 (Seed: -5780442185137350813)
+[11:48:52] [Server thread/INFO]: Preparing spawn area: 9%
+[11:48:53] [Server thread/INFO]: Preparing spawn area: 35%
+[11:48:54] [Server thread/INFO]: Preparing spawn area: 98%
+[11:48:54] [Server thread/INFO]: Preparing start region for level 1 (Seed: -5780442185137350813)
+[11:48:55] [Server thread/INFO]: Preparing spawn area: 33%
+[11:48:55] [Server thread/INFO]: Preparing start region for level 2 (Seed: -5780442185137350813)
+[11:48:56] [Server thread/INFO]: [SimpleTPA] Enabling SimpleTPA v2.1.12
+[11:48:56] [Server thread/INFO]: [SimpleTpa] Enabling SimpleTpa v6.4
+[11:48:56] [Server thread/INFO]: [0;33;1m[21m[SimpleTpa] If you need support contact me at https://discord.gg/SZUkza9[m
+
+[11:48:56] [Server thread/INFO]: [0;33;1m[21m[SimpleTpa] Simple Tpa has been enabled on version 6.4[m
+
+[11:48:56] [Server thread/INFO]: Enabled metrics. You may opt-out by changing plugins/bStats/config.yml
+[11:48:56] [Server thread/WARN]: Plugin SimpleTpa v6.4 tried to register permission 'simpletpa.reload' but it's already registered
+java.lang.IllegalArgumentException: The permission simpletpa.reload is already defined!
+	at org.bukkit.plugin.SimplePluginManager.addPermission(SimplePluginManager.java:621) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.craftbukkit.v1_8_R3.CraftServer.loadPlugin(CraftServer.java:365) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.craftbukkit.v1_8_R3.CraftServer.enablePlugins(CraftServer.java:318) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.s(MinecraftServer.java:408) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.k(MinecraftServer.java:372) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.a(MinecraftServer.java:327) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.DedicatedServer.init(DedicatedServer.java:267) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:563) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+[11:48:56] [Server thread/WARN]: Plugin SimpleTpa v6.4 tried to register permission 'simpletpa.tpa' but it's already registered
+java.lang.IllegalArgumentException: The permission simpletpa.tpa is already defined!
+	at org.bukkit.plugin.SimplePluginManager.addPermission(SimplePluginManager.java:621) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.craftbukkit.v1_8_R3.CraftServer.loadPlugin(CraftServer.java:365) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.craftbukkit.v1_8_R3.CraftServer.enablePlugins(CraftServer.java:318) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.s(MinecraftServer.java:408) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.k(MinecraftServer.java:372) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.a(MinecraftServer.java:327) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.DedicatedServer.init(DedicatedServer.java:267) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:563) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+[11:48:56] [Server thread/INFO]: [SimpleHomes] Enabling SimpleHomes v2.2
+[11:48:56] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v6.1;no_git_id
+[11:48:56] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[11:48:56] [Server thread/INFO]: [WorldEdit] Using com.sk89q.worldedit.bukkit.adapter.impl.Spigot_v1_8_R3 as the Bukkit adapter
+[11:48:56] [Server thread/INFO]: [freemannlifesteal] Enabling freemannlifesteal v1.0
+[11:48:56] [Server thread/INFO]: [ArmorPlus] Enabling ArmorPlus v1.1
+[11:48:56] [Server thread/INFO]: ArmorPlus on
+
+[11:48:56] [Server thread/INFO]: [LoginSecurity] Enabling LoginSecurity v3.2.0
+[11:48:56] [Server thread/INFO]: [LoginSecurity] Loading base translations from "en_us"
+[11:48:56] [Server thread/INFO]: [LoginSecurity] Loading specified translations from "en_us"
+[11:48:56] [Server thread/INFO]: [LoginSecurity] Registering commands...
+[11:48:56] [Server thread/INFO]: [LoginSecurity] Registering listeners...
+[11:48:56] [Server thread/INFO]: [SilkSpawners] Enabling SilkSpawners v3.6.2
+[11:48:56] [Server thread/INFO]: [SilkSpawners] This version of the plugin is NOT compatible with your Minecraft version!
+[11:48:56] [Server thread/INFO]: [SilkSpawners] Please check your versions to make sure they match!
+[11:48:56] [Server thread/INFO]: [SilkSpawners] Disabling now!
+[11:48:56] [Server thread/INFO]: [SilkSpawners] Compatible versions are: [1.5, 1.5.1, 1.5.2, 1.6.1, 1.6.2, 1.6.4, 1.7.2, 1.7.5, 1.7.8, 1.7.9, 1.7.10, 1.8]
+[11:48:56] [Server thread/INFO]: [SilkSpawners] Your version is: 1.8.8
+[11:48:56] [Server thread/INFO]: [SilkSpawners] You can disable this check by setting testMCVersion to false in the config!
+[11:48:56] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[11:48:56] [Server thread/INFO]: Done (6.072s)! For help, type "help" or "?"
+[11:48:56] [Server thread/INFO]: Timings Reset
+[11:48:57] [Craft Scheduler Thread - 0/INFO]: [0;31;1m[21m[SimpleTpa] There is a new update available.[m
+
+[11:48:57] [Craft Scheduler Thread - 0/INFO]: [0;31;1m[SimpleTpa] There is a new update available:[m
+
+[11:48:57] [Craft Scheduler Thread - 0/INFO]: [0;31;1m[SimpleTpa] https://www.spigotmc.org/resources/simple-tpa.64270/[m
+
+[12:02:09] [Server thread/INFO]: That player cannot be found
+[12:02:28] [Server thread/INFO]: That player cannot be found
+[12:02:43] [Server thread/INFO]: That player cannot be found
+[12:02:53] [Server thread/INFO]: Unknown command. Type "/help" for help.[m
+
+[12:12:54] [Server thread/INFO]: Unknown command. Type "/help" for help.[m
+
+[12:22:54] [Server thread/INFO]: Unknown command. Type "/help" for help.[m
+
+[12:32:54] [Server thread/INFO]: Unknown command. Type "/help" for help.[m
+
+[12:34:30] [Thread-9/INFO]: UUID of player prettytotouch is 0d816541-0af9-38f9-9e14-7c67d1eb53f5
+[12:34:30] [Server thread/INFO]: prettytotouch[/[0:0:0:0:0:0:0:1]:42998] logged in with entity id 624 at ([world]-256.5, 72.0, 256.5)
+[12:34:47] [Server thread/INFO]: prettytotouch lost connection: Internal Exception: java.net.SocketException: Connection reset
+[12:34:47] [Server thread/INFO]: prettytotouch left the game.
+[12:34:57] [Thread-10/INFO]: UUID of player prettytotouch1 is 9023d22d-6fcc-3b5e-9d9b-188818dcfb7d
+[12:34:57] [Server thread/INFO]: prettytotouch1[/[0:0:0:0:0:0:0:1]:52060] logged in with entity id 864 at ([world]-238.5, 68.0, 257.5)
+[12:35:30] [Server thread/WARN]: prettytotouch1 moved wrongly!
+[12:37:33] [Server thread/INFO]: prettytotouch1 lost connection: Disconnected
+[12:37:33] [Server thread/INFO]: prettytotouch1 left the game.
+[12:39:00] [Thread-11/INFO]: UUID of player prettytotouch1 is 9023d22d-6fcc-3b5e-9d9b-188818dcfb7d
+[12:39:00] [Server thread/INFO]: prettytotouch1[/[0:0:0:0:0:0:0:1]:37784] logged in with entity id 1071 at ([world]-234.27873559881078, 69.0, 248.89855417844632)
+[12:39:30] [Server thread/INFO]: prettytotouch1 lost connection: Login timed out!
+[12:39:30] [Server thread/INFO]: prettytotouch1 left the game.
+[12:39:30] [Server thread/WARN]: handleDisconnection() called twice
+[12:39:35] [Thread-12/INFO]: UUID of player prettytotouch1 is 9023d22d-6fcc-3b5e-9d9b-188818dcfb7d
+[12:39:35] [Server thread/INFO]: prettytotouch1[/[0:0:0:0:0:0:0:1]:56120] logged in with entity id 1082 at ([world]-234.27873559881078, 69.0, 248.89855417844632)
+[12:39:47] [Server thread/INFO]: prettytotouch1 lost connection: Disconnected
+[12:39:47] [Server thread/INFO]: prettytotouch1 left the game.
+[12:39:55] [Thread-13/INFO]: UUID of player prettytotouch12 is 123307a5-9f94-326f-a820-acf35d832022
+[12:39:55] [Server thread/INFO]: prettytotouch12[/[0:0:0:0:0:0:0:1]:42852] logged in with entity id 1083 at ([world]-246.5, 74.0, 238.5)
+[12:42:03] [Server thread/INFO]: prettytotouch12 lost connection: Disconnected
+[12:42:03] [Server thread/INFO]: prettytotouch12 left the game.
+[12:42:55] [Server thread/INFO]: Unknown command. Type "/help" for help.[m
+
+[12:45:56] [Thread-14/INFO]: UUID of player J0rge_978 is 8b446127-f373-3a88-945a-3dae012422d9
+[12:45:56] [Server thread/INFO]: J0rge_978[/[0:0:0:0:0:0:0:1]:54870] logged in with entity id 1294 at ([world]-390.47339935296145, 9.0, 304.5963790751294)
+[12:46:11] [Server thread/INFO]: J0rge_978 issued server command: /home
+[12:46:26] [Server thread/INFO]: J0rge_978 issued server command: /home J0rge_987
+[12:47:17] [Thread-15/INFO]: UUID of player SigmaSkibidi6_ is c8e9aaa9-558f-3b3f-8121-6ff79c77cbad
+[12:47:17] [Server thread/INFO]: SigmaSkibidi6_[/[0:0:0:0:0:0:0:1]:47516] logged in with entity id 1405 at ([world]-248.5, 73.0, 244.5)
+[12:47:57] [Server thread/INFO]: SigmaSkibidi6_ issued server command: /
+[12:49:33] [Thread-16/INFO]: UUID of player hamtanimpro is 36ca14d3-dae2-3784-a3a3-8038479a5e48
+[12:49:33] [Server thread/INFO]: hamtanimpro[/[0:0:0:0:0:0:0:1]:53620] logged in with entity id 1979 at ([world]-293.5, 58.0, 225.5)
+[12:49:39] [Async Chat Thread - #0/INFO]: <SigmaSkibidi6_> tanim[m
+
+[12:49:41] [Async Chat Thread - #0/INFO]: <SigmaSkibidi6_> tp me[m
+
+[12:49:55] [Server thread/INFO]: hamtanimpro issued server command: /bed
+[12:49:58] [Server thread/INFO]: hamtanimpro issued server command: /help
+[12:50:01] [Async Chat Thread - #0/INFO]: <SigmaSkibidi6_> am had to regisgter again cuz am change skin[m
+
+[12:50:10] [Async Chat Thread - #0/INFO]: <hamtanimpro> how do i tp to bed[m
+
+[12:50:21] [Async Chat Thread - #0/INFO]: <SigmaSkibidi6_> jorge gay ked tell us[m
+
+[12:50:51] [Async Chat Thread - #0/INFO]: <hamtanimpro> is u abid?[m
+
+[12:50:52] [Async Chat Thread - #0/INFO]: <SigmaSkibidi6_> U BLACK[m
+
+[12:50:54] [Async Chat Thread - #0/INFO]: <SigmaSkibidi6_> yea[m
+
+[12:51:00] [Async Chat Thread - #0/INFO]: <hamtanimpro> ok follow me[m
+
+[12:51:11] [Async Chat Thread - #0/INFO]: <SigmaSkibidi6_> wait[m
+
+[12:51:16] [Async Chat Thread - #0/INFO]: <SigmaSkibidi6_> ineed to[m
+
+[12:51:24] [Async Chat Thread - #0/INFO]: <SigmaSkibidi6_> change my run to shift\[m
+
+[12:52:00] [Async Chat Thread - #0/INFO]: <SigmaSkibidi6_> les go[m
+
+[12:52:42] [Async Chat Thread - #0/INFO]: <hamtanimpro> wait kill me[m
+
+[12:52:46] [Async Chat Thread - #0/INFO]: <hamtanimpro> i will give u my cords[m
+
+[12:52:51] [Async Chat Thread - #0/INFO]: <hamtanimpro> so u can come to my base[m
+
+[12:52:55] [Server thread/INFO]: Unknown command. Type "/help" for help.[m
+
+[12:52:59] [Server thread/INFO]: hamtanimpro was slain by SigmaSkibidi6_
+[12:53:09] [Async Chat Thread - #0/INFO]: <SigmaSkibidi6_> kill me after so u can get ur heart back[m
+
+[12:53:25] [Async Chat Thread - #0/INFO]: <hamtanimpro> come to -294[m
+
+[12:53:29] [Async Chat Thread - #0/INFO]: <hamtanimpro> 58[m
+
+[12:53:31] [Server thread/INFO]: hamtanimpro issued server command: /225
+[12:53:33] [Async Chat Thread - #0/INFO]: <hamtanimpro> 225[m
+
+[12:54:42] [Thread-18/INFO]: UUID of player Tony_time22 is bd1dc7f6-a52c-3297-99be-0918c329c2ed
+[12:54:42] [Server thread/INFO]: Tony_time22[/[0:0:0:0:0:0:0:1]:38240] logged in with entity id 2760 at ([world]-250.5, 72.0, 249.5)
+[12:54:48] [Async Chat Thread - #1/INFO]: <SigmaSkibidi6_> wait where does z go[m
+
+[12:55:01] [Async Chat Thread - #1/INFO]: <SigmaSkibidi6_> i digged to -294 60[m
+
+[12:55:05] [Server thread/INFO]: hamtanimpro issued server command: /tpa Tony
+[12:55:11] [Server thread/INFO]: hamtanimpro issued server command: /tpa Sigma
+[12:55:12] [Async Chat Thread - #1/INFO]: <SigmaSkibidi6_> ohhh[m
+
+[12:55:18] [Async Chat Thread - #1/INFO]: <hamtanimpro> hurry up and come[m
+
+[12:55:49] [Server thread/INFO]: Tony_time22 issued server command: /tpa hamtanimpro
+[12:55:53] [Server thread/INFO]: hamtanimpro issued server command: /tp accept
+[12:55:56] [Server thread/INFO]: hamtanimpro issued server command: /tpa accept
+[12:56:10] [Server thread/INFO]: Tony_time22 issued server command: /tpa hamtanimpro
+[12:56:19] [Server thread/INFO]: hamtanimpro issued server command: /tpa Tony
+[12:56:51] [Async Chat Thread - #2/INFO]: <SigmaSkibidi6_> ur under ground?[m
+
+[12:56:57] [Async Chat Thread - #2/INFO]: <hamtanimpro> did u find my base[m
+
+[12:57:01] [Async Chat Thread - #2/INFO]: <SigmaSkibidi6_> ye[m
+
+[12:57:02] [Async Chat Thread - #2/INFO]: <hamtanimpro> its like a ladder[m
+
+[12:57:05] [Server thread/INFO]: SigmaSkibidi6_ issued server command: /ye
+[12:57:08] [Async Chat Thread - #2/INFO]: <SigmaSkibidi6_> yea[m
+
+[12:57:14] [Async Chat Thread - #2/INFO]: <SigmaSkibidi6_> i need a bed[m
+
+[12:57:26] [Server thread/INFO]: SigmaSkibidi6_ has just earned the achievement [Taking Inventory]
+[12:57:28] [Server thread/INFO]: hamtanimpro hit the ground too hard
+[12:57:36] [Server thread/INFO]: Tony_time22 issued server command: /tpa hamtanimpro
+[12:57:44] [Async Chat Thread - #2/INFO]: <SigmaSkibidi6_> how do i set bed[m
+
+[12:57:48] [Async Chat Thread - #2/INFO]: <SigmaSkibidi6_> without bed[m
+
+[12:57:56] [Server thread/INFO]: hamtanimpro issued server command: /tpa accept
+[12:58:03] [Server thread/INFO]: hamtanimpro issued server command: /tpa accept Tony_time22
+[12:58:06] [Server thread/INFO]: hamtanimpro issued server command: /tpa
+[12:58:10] [Async Chat Thread - #2/INFO]: <SigmaSkibidi6_> am hungry[m
+
+[12:58:16] [Server thread/INFO]: hamtanimpro issued server command: /tpa here Tony_time22
+[12:58:25] [Server thread/INFO]: hamtanimpro issued server command: /tpa here Tony
+[12:58:25] [Async Chat Thread - #2/INFO]: <SigmaSkibidi6_> am gotta read brb[m
+
+[12:58:27] [Server thread/INFO]: Tony_time22 lost connection: Disconnected
+[12:58:27] [Server thread/INFO]: Tony_time22 left the game.
+[12:58:37] [Server thread/INFO]: hamtanimpro issued server command: /tpahere Tony_time22
+[12:58:49] [Server thread/INFO]: hamtanimpro issued server command: /help
+[12:59:03] [Server thread/INFO]: hamtanimpro issued server command: /simple tpa
+[12:59:22] [Server thread/INFO]: hamtanimpro issued server command: /help 2
+[12:59:22] [Async Chat Thread - #2/INFO]: <SigmaSkibidi6_> am gotta read so am gonna brb[m
+
+[12:59:26] [Async Chat Thread - #2/INFO]: <hamtanimpro> help 1[m
+
+[12:59:29] [Server thread/INFO]: hamtanimpro issued server command: /
+[13:00:18] [Thread-19/INFO]: UUID of player Tony_time22 is bd1dc7f6-a52c-3297-99be-0918c329c2ed
+[13:00:18] [Server thread/INFO]: Tony_time22[/[0:0:0:0:0:0:0:1]:35666] logged in with entity id 3330 at ([world]-196.31555472908565, 63.0, 282.77484116709013)
+[13:00:41] [Server thread/INFO]: hamtanimpro issued server command: /tpahere Tony_time22
+[13:00:46] [Server thread/INFO]: Tony_time22 issued server command: /tpa accept
+[13:00:50] [Server thread/INFO]: Tony_time22 issued server command: /tpa
+[13:00:53] [Server thread/INFO]: Tony_time22 issued server command: /accept
+[13:01:01] [Server thread/INFO]: Tony_time22 issued server command: /accept hamtanipro
+[13:01:05] [Server thread/INFO]: hamtanimpro issued server command: /tpahere Tony_time22
+[13:01:07] [Server thread/INFO]: Tony_time22 issued server command: /accept hamtanipro
+[13:01:08] [Server thread/INFO]: Tony_time22 issued server command: /accept hamtanipro
+[13:01:18] [Async Chat Thread - #3/INFO]: <SigmaSkibidi6_> wait[m
+
+[13:01:20] [Async Chat Thread - #3/INFO]: <SigmaSkibidi6_> skeleron[m
+
+[13:01:22] [Async Chat Thread - #3/INFO]: <SigmaSkibidi6_> outside[m
+
+[13:01:30] [Server thread/INFO]: hamtanimpro lost connection: Disconnected
+[13:01:30] [Server thread/INFO]: hamtanimpro left the game.
+[13:01:59] [Server thread/INFO]: Tony_time22 has just earned the achievement [Taking Inventory]
+[13:02:10] [Thread-20/INFO]: UUID of player hamtanimpro is 36ca14d3-dae2-3784-a3a3-8038479a5e48
+[13:02:10] [Server thread/INFO]: hamtanimpro[/[0:0:0:0:0:0:0:1]:55162] logged in with entity id 3512 at ([world]-294.3672131509035, 58.0, 226.10218494734255)
+[13:02:27] [Async Chat Thread - #3/INFO]: <hamtanimpro> did u set spawn[m
+
+[13:02:31] [Async Chat Thread - #3/INFO]: <hamtanimpro> abid[m
+
+[13:02:55] [Server thread/INFO]: Unknown command. Type "/help" for help.[m
+
+[13:03:15] [Server thread/INFO]: hamtanimpro issued server command: /tpahere Tony
+[13:03:17] [Server thread/INFO]: Tony_time22 issued server command: /accept
+[13:03:26] [Server thread/INFO]: Tony_time22 issued server command: /accept hamtanimpro
+[13:03:32] [Server thread/INFO]: Tony_time22 issued server command: /help
+[13:03:41] [Server thread/INFO]: Tony_time22 issued server command: /SimpleTpa
+[13:04:02] [Server thread/INFO]: Tony_time22 issued server command: /tpaccept hamtanimpro
+[13:04:21] [Server thread/INFO]: Tony_time22 issued server command: /tpaccept hamtanimpro
+[13:04:33] [Server thread/INFO]: hamtanimpro issued server command: /tpahere Tony
+[13:04:34] [Server thread/INFO]: Tony_time22 issued server command: /tpaccept hamtanimpro
+[13:05:07] [Async Chat Thread - #4/INFO]: <hamtanimpro> -295[m
+
+[13:05:09] [Async Chat Thread - #4/INFO]: <hamtanimpro> 58[m
+
+[13:05:11] [Server thread/INFO]: hamtanimpro issued server command: /225
+[13:05:13] [Async Chat Thread - #4/INFO]: <hamtanimpro> 225[m
+
+[13:05:14] [Server thread/INFO]: SigmaSkibidi6_ was slain by hamtanimpro
+[13:10:40] [Async Chat Thread - #5/INFO]: <Tony_time22> y[m
+
+[13:11:17] [Server thread/INFO]: SigmaSkibidi6_ lost connection: Internal Exception: java.net.SocketException: Connection reset
+[13:11:17] [Server thread/INFO]: SigmaSkibidi6_ left the game.
+[13:12:55] [Server thread/INFO]: Unknown command. Type "/help" for help.[m
+
+[13:16:27] [Server thread/INFO]: Tony_time22 issued server command: /sethome
+[13:16:30] [Server thread/INFO]: Tony_time22 issued server command: /sethome base
+[13:16:31] [Server thread/INFO]: hamtanimpro issued server command: /home
+[13:16:39] [Server thread/INFO]: hamtanimpro issued server command: /set home
+[13:16:42] [Server thread/INFO]: hamtanimpro issued server command: /base
+[13:17:01] [Server thread/INFO]: hamtanimpro issued server command: /sethome base
+[13:17:07] [Server thread/INFO]: Tony_time22 issued server command: /base
+[13:17:09] [Server thread/INFO]: Tony_time22 issued server command: /tpa base
+[13:17:10] [Server thread/INFO]: hamtanimpro issued server command: /tp base
+[13:17:14] [Server thread/INFO]: Tony_time22 issued server command: /home base
+[13:17:15] [Server thread/INFO]: hamtanimpro issued server command: /tpabase
+[13:17:19] [Server thread/INFO]: hamtanimpro issued server command: /homebase
+[13:17:24] [Server thread/INFO]: hamtanimpro issued server command: /home base
+[13:17:44] [Server thread/INFO]: hamtanimpro has just earned the achievement [Time to Strike!]
+[13:19:07] [Server thread/INFO]: Tony_time22 issued server command: /feed
+[13:19:17] [Server thread/INFO]: Tony_time22 issued server command: /home base
+[13:19:23] [Server thread/INFO]: hamtanimpro issued server command: /home base
+[13:22:50] [Server thread/INFO]: J0rge_978 lost connection: Disconnected
+[13:22:50] [Server thread/INFO]: J0rge_978 left the game.
+[13:22:56] [Server thread/INFO]: Unknown command. Type "/help" for help.[m
+
+[13:23:21] [Server thread/INFO]: hamtanimpro has just earned the achievement [Monster Hunter]
+[13:23:33] [Server thread/INFO]: hamtanimpro issued server command: /home base
+[13:24:03] [Server thread/INFO]: hamtanimpro lost connection: Disconnected
+[13:24:03] [Server thread/INFO]: hamtanimpro left the game.
+[13:24:30] [Server thread/INFO]: Tony_time22 lost connection: Disconnected
+[13:24:30] [Server thread/INFO]: Tony_time22 left the game.
+[13:30:05] [Thread-22/INFO]: UUID of player J0rge_978 is 8b446127-f373-3a88-945a-3dae012422d9
+[13:30:05] [Server thread/INFO]: J0rge_978[/[0:0:0:0:0:0:0:1]:54092] logged in with entity id 5655 at ([world]-391.53530940706304, 23.0, 304.33884640112404)
+[13:32:56] [Server thread/INFO]: Unknown command. Type "/help" for help.[m
+
+[13:34:36] [Server thread/INFO]: J0rge_978 lost connection: Disconnected
+[13:34:36] [Server thread/INFO]: J0rge_978 left the game.
+[13:34:48] [Thread-23/INFO]: UUID of player J0rge_979 is a5aba852-2edf-3b64-8510-4156c9072f68
+[13:34:48] [Server thread/INFO]: J0rge_979[/[0:0:0:0:0:0:0:1]:33434] logged in with entity id 6108 at ([world]-391.5567882097838, 22.974413899588946, 304.18051735303976)
+[13:39:15] [Server thread/INFO]: J0rge_979 lost connection: Disconnected
+[13:39:15] [Server thread/INFO]: J0rge_979 left the game.
+[13:39:25] [Thread-24/INFO]: UUID of player J0rge_978 is 8b446127-f373-3a88-945a-3dae012422d9
+[13:39:25] [Server thread/INFO]: J0rge_978[/[0:0:0:0:0:0:0:1]:44616] logged in with entity id 6729 at ([world]-391.1449268954849, 9.0, 304.15120118132194)
+[13:42:56] [Server thread/INFO]: Unknown command. Type "/help" for help.[m
+
+[13:52:57] [Server thread/INFO]: Unknown command. Type "/help" for help.[m
+
+[13:58:15] [Thread-26/INFO]: UUID of player SigmaSkibidi6___ is 7ae0af0f-dd3d-3193-b2d7-4c1fa144d3ca
+[13:58:15] [Server thread/INFO]: SigmaSkibidi6___[/[0:0:0:0:0:0:0:1]:58256] logged in with entity id 8323 at ([world]-251.5, 73.0, 246.5)
+[13:58:45] [Server thread/INFO]: SigmaSkibidi6___ lost connection: Login timed out!
+[13:58:45] [Server thread/INFO]: SigmaSkibidi6___ left the game.
+[13:58:45] [Server thread/WARN]: handleDisconnection() called twice
+[13:58:49] [Thread-27/INFO]: UUID of player SigmaSkibidi6___ is 7ae0af0f-dd3d-3193-b2d7-4c1fa144d3ca
+[13:58:49] [Server thread/INFO]: SigmaSkibidi6___[/[0:0:0:0:0:0:0:1]:41410] logged in with entity id 8442 at ([world]-251.9537946115751, 73.0, 246.3913242445527)
+[13:59:47] [Server thread/INFO]: SigmaSkibidi6___ has just earned the achievement [Taking Inventory]
+[14:02:56] [Server thread/INFO]: J0rge_978 lost connection: Disconnected
+[14:02:56] [Server thread/INFO]: J0rge_978 left the game.
+[14:02:57] [Server thread/INFO]: Unknown command. Type "/help" for help.[m
+
+[14:03:36] [Server thread/INFO]: SigmaSkibidi6___ was shot by Skeleton
+[14:03:43] [Server thread/INFO]: SigmaSkibidi6___ issued server command: /back
+[14:12:57] [Server thread/INFO]: Unknown command. Type "/help" for help.[m
+
+[14:14:54] [Thread-28/INFO]: UUID of player null_21 is e8ee64ff-0078-3191-810a-b59eff46fe80
+[14:14:54] [Server thread/INFO]: null_21[/[0:0:0:0:0:0:0:1]:38128] logged in with entity id 10118 at ([world]-394.76249998807907, 23.0, 301.8670151954615)
+[14:15:30] [Async Chat Thread - #6/INFO]: <SigmaSkibidi6___> can gib fod[m
+
+[14:15:34] [Async Chat Thread - #6/INFO]: <null_21> abid[m
+
+[14:15:37] [Async Chat Thread - #6/INFO]: <null_21> U TRATIOR[m
+
+[14:15:42] [Async Chat Thread - #6/INFO]: <SigmaSkibidi6___> wut[m
+
+[14:15:48] [Async Chat Thread - #6/INFO]: <SigmaSkibidi6___> blud u stole me hearts[m
+
+[14:15:53] [Async Chat Thread - #6/INFO]: <SigmaSkibidi6___> am want back[m
+
+[14:15:55] [Async Chat Thread - #6/INFO]: <null_21> u in tanim team[m
+
+[14:15:58] [Async Chat Thread - #6/INFO]: <null_21> peasent[m
+
+[14:16:07] [Async Chat Thread - #6/INFO]: <SigmaSkibidi6___> ok am join u team if gib fod[m
+
+[14:16:16] [Async Chat Thread - #6/INFO]: <null_21> na i dont want u bro[m
+
+[14:16:17] [Async Chat Thread - #6/INFO]: <SigmaSkibidi6___> am at tanim base[m
+
+[14:16:29] [Async Chat Thread - #6/INFO]: <null_21> waht are the corrdinates for food[m
+
+[14:16:40] [Async Chat Thread - #6/INFO]: <SigmaSkibidi6___> nah i dont want u bro[m
+
+[14:17:03] [Async Chat Thread - #6/INFO]: <null_21> u mean u dont want the fodd[m
+
+[14:17:05] [Async Chat Thread - #6/INFO]: <SigmaSkibidi6___> y r not use the fly command]=[m
+
+[14:17:16] [Async Chat Thread - #6/INFO]: <null_21> cause i dont want to abuse[m
+
+[14:17:22] [Async Chat Thread - #6/INFO]: <SigmaSkibidi6___> cap[m
+
+[14:17:32] [Async Chat Thread - #6/INFO]: <null_21> i am gonna do a non admin abuse tpa types tpaccept[m
+
+[14:17:36] [Server thread/INFO]: null_21 issued server command: /tpa SigmaSkibidi6___
+[14:17:41] [Async Chat Thread - #6/INFO]: <null_21> then dont moce[m
+
+[14:17:43] [Async Chat Thread - #6/INFO]: <null_21> move[m
+
+[14:17:49] [Async Chat Thread - #6/INFO]: <SigmaSkibidi6___> CHEATER[m
+
+[14:17:52] [Async Chat Thread - #6/INFO]: <null_21> how[m
+
+[14:17:54] [Async Chat Thread - #6/INFO]: <null_21> ?[m
+
+[14:18:11] [Async Chat Thread - #6/INFO]: <null_21> how?? explain[m
+
+[14:18:21] [Async Chat Thread - #6/INFO]: <SigmaSkibidi6___> y r try to tp[m
+
+[14:18:45] [Async Chat Thread - #6/INFO]: <null_21> BOR I CAN FOURCE TP BUT I AM USING A PLUGIN U CAN USE TOO ITS NORMLA THAT WHY U CAN ACCEPT OR DELINE[m
+
+[14:18:47] [Async Chat Thread - #6/INFO]: <null_21> IDOT[m
+
+[14:18:53] [Async Chat Thread - #6/INFO]: <null_21> -203 IQ[m
+
+[14:18:59] [Async Chat Thread - #6/INFO]: <SigmaSkibidi6___> nah[m
+
+[14:19:19] [Async Chat Thread - #6/INFO]: <null_21> u are just a idot[m
+
+[14:19:27] [Async Chat Thread - #6/INFO]: <null_21> thats why u aint even in the team bruh[m
+
+[14:19:35] [Async Chat Thread - #6/INFO]: <null_21> u trying to grief us[m
+
+[14:19:40] [Async Chat Thread - #6/INFO]: <SigmaSkibidi6___> den y r ask y am not in team[m
+
+[14:19:42] [Async Chat Thread - #6/INFO]: <SigmaSkibidi6___> L bozo[m
+
+[14:19:54] [Async Chat Thread - #6/INFO]: <null_21> askiing for what?[m
+
+[14:19:54] [Async Chat Thread - #6/INFO]: <SigmaSkibidi6___> am memorized u guys coordinate[m
+
+[14:20:02] [Async Chat Thread - #6/INFO]: <null_21> idgive a shitee[m
+
+[14:20:10] [Async Chat Thread - #6/INFO]: <SigmaSkibidi6___> am coming[m
+
+[14:20:12] [Async Chat Thread - #6/INFO]: <null_21> alr[m
+
+[14:20:15] [Async Chat Thread - #6/INFO]: <null_21> i am waitng[m
+
+[14:20:19] [Async Chat Thread - #6/INFO]: <null_21> i wanna tp[m
+
+[14:20:23] [Async Chat Thread - #6/INFO]: <null_21> ?[m
+
+[14:20:23] [Async Chat Thread - #6/INFO]: <SigmaSkibidi6___> L bozo am lied[m
+
+[14:20:28] [Async Chat Thread - #6/INFO]: <null_21> ik[m
+
+[14:20:59] [Server thread/INFO]: null_21 issued server command: /give SigmaSkibidi6___ minecraft:dirt 64
+[14:20:59] [Server thread/INFO]: [null_21: Given [Dirt] * 64 to SigmaSkibidi6___]
+[14:21:03] [Async Chat Thread - #6/INFO]: <null_21> heres some dirt[m
+
+[14:21:10] [Async Chat Thread - #6/INFO]: <null_21> i gave u 64 dirt[m
+
+[14:21:14] [Async Chat Thread - #6/INFO]: <SigmaSkibidi6___> am not need it[m
+
+[14:21:21] [Async Chat Thread - #6/INFO]: <null_21> idc[m
+
+[14:21:31] [Async Chat Thread - #6/INFO]: <SigmaSkibidi6___> ked idc if u idc[m
+
+[14:21:46] [Async Chat Thread - #6/INFO]: <null_21> were u suppose to care?[m
+
+[14:21:50] [Async Chat Thread - #6/INFO]: <SigmaSkibidi6___> nah[m
+
+[14:21:59] [Async Chat Thread - #6/INFO]: <null_21> then why say so?[m
+
+[14:22:05] [Async Chat Thread - #6/INFO]: <SigmaSkibidi6___> cause nah[m
+
+[14:22:08] [Async Chat Thread - #6/INFO]: <null_21> what makes u think i amke u care[m
+
+[14:22:21] [Async Chat Thread - #6/INFO]: <SigmaSkibidi6___> wut makes u think i make u care that u care[m
+
+[14:22:24] [Server thread/INFO]: null_21 issued server command: /tpa SigmaSkibidi6___
+[14:22:38] [Async Chat Thread - #6/INFO]: <null_21> did i say u care that i dont care?[m
+
+[14:22:39] [Async Chat Thread - #6/INFO]: <SigmaSkibidi6___> y r want tp blud[m
+
+[14:22:44] [Async Chat Thread - #6/INFO]: <null_21> plz tp[m
+
+[14:22:50] [Async Chat Thread - #6/INFO]: <SigmaSkibidi6___> y[m
+
+[14:22:54] [Async Chat Thread - #6/INFO]: <null_21> for food[m
+
+[14:22:58] [Server thread/INFO]: Unknown command. Type "/help" for help.[m
+
+[14:22:58] [Async Chat Thread - #6/INFO]: <null_21> (trust_[m
+
+[14:23:01] [Async Chat Thread - #6/INFO]: <SigmaSkibidi6___> nah[m
+
+[14:23:09] [Async Chat Thread - #6/INFO]: <null_21> frick u[m
+
+[14:23:13] [Async Chat Thread - #6/INFO]: <null_21> i will find u[m
+
+[14:23:14] [Async Chat Thread - #6/INFO]: <SigmaSkibidi6___> wut am did[m
+
+[14:23:18] [Async Chat Thread - #6/INFO]: <SigmaSkibidi6___> wrong[m
+
+[14:23:47] [Async Chat Thread - #6/INFO]: <SigmaSkibidi6___> wut language do u speak[m
+
+[14:23:53] [Async Chat Thread - #6/INFO]: <null_21> u with tanim team and hes trying to grief my base with abir jore ishamyel and fiaze[m
+
+[14:23:58] [Async Chat Thread - #6/INFO]: <SigmaSkibidi6___> hindi or butter chicken language[m
+
+[14:24:12] [Async Chat Thread - #6/INFO]: <null_21> butter chicken[m
+
+[14:24:19] [Async Chat Thread - #6/INFO]: <SigmaSkibidi6___> nah am only team with tanim so am can get loot[m
+
+[14:24:26] [Async Chat Thread - #6/INFO]: <SigmaSkibidi6___> am go make own base after[m
+
+[14:24:32] [Async Chat Thread - #6/INFO]: <null_21> so u a traiotr[m
+
+[14:24:33] [Async Chat Thread - #6/INFO]: <null_21> ?[m
+
+[14:24:36] [Async Chat Thread - #6/INFO]: <SigmaSkibidi6___> nah[m
+
+[14:24:44] [Async Chat Thread - #6/INFO]: <null_21> u sure about that[m
+
+[14:24:45] [Async Chat Thread - #6/INFO]: <SigmaSkibidi6___> how r traitor if never in clan[m
+
+[14:25:21] [Async Chat Thread - #6/INFO]: <null_21> he said u in clan[m
+
+[14:25:22] [Async Chat Thread - #6/INFO]: <SigmaSkibidi6___> wut class u got now[m
+
+[14:25:26] [Async Chat Thread - #6/INFO]: <SigmaSkibidi6___> what[m
+
+[14:25:26] [Async Chat Thread - #6/INFO]: <null_21> kelly[m
+
+[14:25:37] [Async Chat Thread - #6/INFO]: <SigmaSkibidi6___> ked who said am in clan[m
+
+[14:25:42] [Async Chat Thread - #6/INFO]: <null_21> tanim said u in his clan[m
+
+[14:25:48] [Async Chat Thread - #6/INFO]: <SigmaSkibidi6___> yea[m
+
+[14:26:15] [Async Chat Thread - #6/INFO]: <SigmaSkibidi6___> ked is team not clan[m
+
+[14:26:23] [Thread-30/INFO]: UUID of player hamtanimpro is 36ca14d3-dae2-3784-a3a3-8038479a5e48
+[14:26:23] [Server thread/INFO]: hamtanimpro[/[0:0:0:0:0:0:0:1]:56436] logged in with entity id 10926 at ([world]-294.53312613707794, 58.0, 225.89124006566942)
+[14:26:26] [Async Chat Thread - #6/INFO]: <null_21> ok[m
+
+[14:26:27] [Async Chat Thread - #6/INFO]: <SigmaSkibidi6___> ello[m
+
+[14:26:39] [Async Chat Thread - #6/INFO]: <SigmaSkibidi6___> dis rat wanna tp to our spot[m
+
+[14:26:44] [Async Chat Thread - #6/INFO]: <null_21> tanim want free vbucks give corrdinates for a free vbuck prie[m
+
+[14:26:50] [Async Chat Thread - #6/INFO]: <hamtanimpro> ok[m
+
+[14:26:53] [Async Chat Thread - #6/INFO]: <hamtanimpro> -299[m
+
+[14:26:54] [Async Chat Thread - #6/INFO]: <SigmaSkibidi6___> praneesh we only accept if u tp us to ur spot[m
+
+[14:27:02] [Async Chat Thread - #6/INFO]: <null_21> thats what i ddi[m
+
+[14:27:06] [Server thread/INFO]: null_21 issued server command: /home 1
+[14:27:13] [Server thread/INFO]: null_21 issued server command: /tpa SigmaSkibidi6___
+[14:27:16] [Async Chat Thread - #6/INFO]: <null_21> accept[m
+
+[14:27:18] [Async Chat Thread - #6/INFO]: <SigmaSkibidi6___> how accept[m
+
+[14:27:19] [Server thread/INFO]: SigmaSkibidi6___ issued server command: /yes
+[14:27:20] [Async Chat Thread - #6/INFO]: <null_21> i tp to u[m
+
+[14:27:29] [Async Chat Thread - #6/INFO]: <SigmaSkibidi6___> how do i accept[m
+
+[14:27:30] [Async Chat Thread - #6/INFO]: <null_21> do /tpaccept[m
+
+[14:27:33] [Async Chat Thread - #6/INFO]: <null_21> then dont move[m
+
+[14:27:35] [Server thread/INFO]: SigmaSkibidi6___ issued server command: /tpaccept
+[14:27:40] [Server thread/INFO]: SigmaSkibidi6___ issued server command: /wut
+[14:27:42] [Async Chat Thread - #6/INFO]: <SigmaSkibidi6___> wut[m
+
+[14:27:52] [Async Chat Thread - #6/INFO]: <SigmaSkibidi6___> tp to tanim[m
+
+[14:27:55] [Async Chat Thread - #6/INFO]: <null_21> ont move[m
+
+[14:28:02] [Async Chat Thread - #6/INFO]: <null_21> because if u do it cancles[m
+
+[14:28:03] [Async Chat Thread - #6/INFO]: <SigmaSkibidi6___> tp us to ur base[m
+
+[14:28:08] [Async Chat Thread - #6/INFO]: <null_21> na[m
+
+[14:28:12] [Async Chat Thread - #6/INFO]: <SigmaSkibidi6___> den no[m
+
+[14:28:24] [Async Chat Thread - #6/INFO]: <hamtanimpro> tp to me[m
+
+[14:28:27] [Async Chat Thread - #6/INFO]: <null_21> do said me to tp me to u[m
+
+[14:28:29] [Async Chat Thread - #6/INFO]: <hamtanimpro> or u is gay[m
+
+[14:28:49] [Async Chat Thread - #6/INFO]: <SigmaSkibidi6___> ked deal is tp to our base den u tp us to ur[m
+
+[14:29:03] [Async Chat Thread - #6/INFO]: <null_21> wait i am figint monster[m
+
+[14:29:17] [Async Chat Thread - #6/INFO]: <SigmaSkibidi6___> blud u got creative[m
+
+[14:29:22] [Async Chat Thread - #6/INFO]: <SigmaSkibidi6___> just use dat[m
+
+[14:29:40] [Async Chat Thread - #6/INFO]: <SigmaSkibidi6___> also how r lose to tanim and hab to use creative u got skill issue[m
+
+[14:29:48] [Async Chat Thread - #6/INFO]: <SigmaSkibidi6___> big nub[m
+
+[14:29:57] [Async Chat Thread - #6/INFO]: <SigmaSkibidi6___> use the stone pick[m
+
+[14:30:02] [Async Chat Thread - #6/INFO]: <null_21> bro i was giving him start kit when he started killing me[m
+
+[14:30:12] [Async Chat Thread - #6/INFO]: <null_21> and he could get the full set[m
+
+[14:30:14] [Async Chat Thread - #6/INFO]: <SigmaSkibidi6___> bro u gib me start kit and den kill me[m
+
+[14:30:21] [Async Chat Thread - #6/INFO]: <null_21> ?[m
+
+[14:30:24] [Async Chat Thread - #6/INFO]: <SigmaSkibidi6___> gib me start kit[m
+
+[14:30:27] [Async Chat Thread - #6/INFO]: <null_21> i did[m
+
+[14:30:34] [Async Chat Thread - #6/INFO]: <SigmaSkibidi6___> u killed me and start kit gone[m
+
+[14:30:37] [Async Chat Thread - #6/INFO]: <null_21> also when i killed u it was a accident[m
+
+[14:30:52] [Async Chat Thread - #6/INFO]: <SigmaSkibidi6___> GIB START KIT[m
+
+[14:30:55] [Async Chat Thread - #6/INFO]: <SigmaSkibidi6___> u not gib me[m
+
+[14:30:55] [Async Chat Thread - #6/INFO]: <null_21> u want one now its gona be less[m
+
+[14:31:07] [Async Chat Thread - #6/INFO]: <SigmaSkibidi6___> just gib me start kit[m
+
+[14:31:09] [Server thread/INFO]: null_21 issued server command: /tpa hamtanimpro
+[14:31:13] [Server thread/INFO]: null_21 issued server command: /gamemode 1
+[14:31:13] [Server thread/INFO]: [null_21: Set own game mode to Creative Mode]
+[14:31:29] [Server thread/INFO]: hamtanimpro issued server command: /tpaccept
+[14:32:07] [Server thread/INFO]: null_21 issued server command: /gamemode 0
+[14:32:08] [Server thread/INFO]: [null_21: Set own game mode to Survival Mode]
+[14:32:12] [Async Chat Thread - #7/INFO]: <SigmaSkibidi6___> bro gib me starter kit[m
+
+[14:32:20] [Server thread/INFO]: null_21 issued server command: /tp hamtanimprow
+[14:32:20] [Server thread/INFO]: [null_21: The entity UUID provided is in an invalid format]
+[14:32:24] [Server thread/INFO]: null_21 issued server command: /tp hamtanimpro
+[14:32:24] [Server thread/INFO]: [null_21: Teleported null_21 to hamtanimpro]
+[14:32:58] [Server thread/INFO]: Unknown command. Type "/help" for help.[m
+
+[14:33:12] [Async Chat Thread - #7/INFO]: <SigmaSkibidi6___> ey how come the other guys arent online dont they hab mr kelly too[m
+
+[14:33:26] [Async Chat Thread - #7/INFO]: <null_21> ishymmael forgot the link[m
+
+[14:33:32] [Async Chat Thread - #7/INFO]: <SigmaSkibidi6___> dumass[m
+
+[14:33:42] [Server thread/INFO]: null_21 issued server command: /home 1
+[14:33:42] [Async Chat Thread - #7/INFO]: <SigmaSkibidi6___> am beat him up in art[m
+
+[14:33:58] [Server thread/INFO]: [@: Teleported null_21 to -391.5, 76.0, 302.5]
+[14:34:01] [Async Chat Thread - #7/INFO]: <SigmaSkibidi6___> am not gonna be surprised if he accidently leaks u guys base coordinates[m
+
+[14:34:17] [Async Chat Thread - #7/INFO]: <SigmaSkibidi6___> bro ked gib me starter kit[m
+
+[14:34:29] [Server thread/INFO]: SigmaSkibidi6___ issued server command: /tp null
+[14:34:37] [Async Chat Thread - #7/INFO]: <null_21> i aint gonna look at his screen like him[m
+
+[14:34:39] [Async Chat Thread - #7/INFO]: <SigmaSkibidi6___> wuts the tp command[m
+
+[14:34:55] [Async Chat Thread - #7/INFO]: <SigmaSkibidi6___> gib me starter kit[m
+
+[14:35:09] [Async Chat Thread - #7/INFO]: <null_21> na tanim try to trap kill me and he failed so na[m
+
+[14:35:21] [Async Chat Thread - #7/INFO]: <SigmaSkibidi6___> den tp me to u[m
+
+[14:35:24] [Async Chat Thread - #7/INFO]: <SigmaSkibidi6___> am got 2 hearts[m
+
+[14:35:27] [Async Chat Thread - #7/INFO]: <SigmaSkibidi6___> and hunger[m
+
+[14:35:31] [Async Chat Thread - #7/INFO]: <null_21> capd[m
+
+[14:35:35] [Async Chat Thread - #7/INFO]: <SigmaSkibidi6___> wallah[m
+
+[14:35:47] [Async Chat Thread - #7/INFO]: <SigmaSkibidi6___> plzzzzzzzzzzz[m
+
+[14:35:49] [Server thread/INFO]: hamtanimpro hit the ground too hard
+[14:35:59] [Async Chat Thread - #7/INFO]: <null_21> then tanim is gonna or u gonna say i creative abuse to give U stuff[m
+
+[14:36:08] [Async Chat Thread - #7/INFO]: <SigmaSkibidi6___> but its starter kit everyibe get it[m
+
+[14:36:22] [Async Chat Thread - #7/INFO]: <SigmaSkibidi6___> just gib me like u did with the 64 dirt[m
+
+[14:36:47] [Server thread/INFO]: null_21 issued server command: /give hamtanimpro minecraft:iron_ingot 20
+[14:36:48] [Server thread/INFO]: [null_21: Given [Iron Ingot] * 20 to hamtanimpro]
+[14:36:51] [Async Chat Thread - #7/INFO]: <SigmaSkibidi6___> bro tanim r dat fat dat u need 3 beds[m
+
+[14:37:45] [Async Chat Thread - #7/INFO]: <null_21> abid i give u 3 bread[m
+
+[14:37:55] [Async Chat Thread - #7/INFO]: <SigmaSkibidi6___> am want starter kit[m
+
+[14:37:58] [Server thread/INFO]: null_21 issued server command: /give SigmaSkibidi6___ minecraft:bread 3
+[14:37:58] [Server thread/INFO]: [null_21: Given [Bread] * 3 to SigmaSkibidi6___]
+[14:38:02] [Async Chat Thread - #7/INFO]: <null_21> done[m
+
+[14:38:08] [Async Chat Thread - #7/INFO]: <null_21> abid check indentory for bread i gave u[m
+
+[14:38:15] [Async Chat Thread - #7/INFO]: <SigmaSkibidi6___> am ate it all[m
+
+[14:38:17] [Async Chat Thread - #7/INFO]: <SigmaSkibidi6___> am hungrys[m
+
+[14:38:20] [Async Chat Thread - #7/INFO]: <hamtanimpro> wwait do u lose hp to fall dammage[m
+
+[14:38:28] [Async Chat Thread - #7/INFO]: <SigmaSkibidi6___> bro tanim where did u get iron armor from[m
+
+[14:38:28] [Async Chat Thread - #7/INFO]: <null_21> no shit[m
+
+[14:38:36] [Async Chat Thread - #7/INFO]: <hamtanimpro> no like lose hearts[m
+
+[14:38:38] [Async Chat Thread - #7/INFO]: <null_21> i gave tanim 20 iron[m
+
+[14:38:49] [Async Chat Thread - #7/INFO]: <SigmaSkibidi6___> GIB ME STARTER KIT BRO[m
+
+[14:38:51] [Async Chat Thread - #7/INFO]: <null_21> na[m
+
+[14:38:54] [Async Chat Thread - #7/INFO]: <SigmaSkibidi6___> Y[m
+
+[14:39:01] [Async Chat Thread - #7/INFO]: <SigmaSkibidi6___> just spawn it in my inv[m
+
+[14:39:04] [Async Chat Thread - #7/INFO]: <null_21> ask taniiiim for iron i gave him[m
+
+[14:39:15] [Async Chat Thread - #7/INFO]: <SigmaSkibidi6___> der no more[m
+
+[14:39:17] [Async Chat Thread - #7/INFO]: <hamtanimpro> give him starter loot[m
+
+[14:39:21] [Async Chat Thread - #7/INFO]: <SigmaSkibidi6___> bro ked[m
+
+[14:39:24] [Async Chat Thread - #7/INFO]: <null_21> i gave u the kit u had it after we left u[m
+
+[14:39:31] [Async Chat Thread - #7/INFO]: <SigmaSkibidi6___> no[m
+
+[14:39:39] [Async Chat Thread - #7/INFO]: <SigmaSkibidi6___> ked fiaz guy took my kit[m
+
+[14:39:45] [Async Chat Thread - #7/INFO]: <SigmaSkibidi6___> is gone[m
+
+[14:39:59] [Async Chat Thread - #7/INFO]: <SigmaSkibidi6___> gib NOQ[m
+
+[14:40:05] [Async Chat Thread - #7/INFO]: <SigmaSkibidi6___> NOW[m
+
+[14:40:09] [Async Chat Thread - #7/INFO]: <null_21> U DARE CALL ME A NOOB[m
+
+[14:40:16] [Server thread/INFO]: null_21 issued server command: /home 1
+[14:40:22] [Async Chat Thread - #7/INFO]: <SigmaSkibidi6___> ked??[m
+
+[14:40:26] [Async Chat Thread - #7/INFO]: <SigmaSkibidi6___> r the retarded[m
+
+[14:40:30] [Async Chat Thread - #7/INFO]: <SigmaSkibidi6___> no one r sed noob[m
+
+[14:40:59] [Async Chat Thread - #7/INFO]: <SigmaSkibidi6___> wut dis ked yapping about[m
+
+[14:42:31] [Async Chat Thread - #8/INFO]: <SigmaSkibidi6___> am might pley roblos[m
+
+[14:42:36] [Async Chat Thread - #8/INFO]: <SigmaSkibidi6___> with ismael[m
+
+[14:42:42] [Async Chat Thread - #8/INFO]: <SigmaSkibidi6___> idk if dat guy online[m
+
+[14:42:58] [Server thread/INFO]: Unknown command. Type "/help" for help.[m
+
+[14:43:40] [Async Chat Thread - #8/INFO]: <null_21> eveyrone sleep[m
+
+[14:43:46] [Async Chat Thread - #8/INFO]: <SigmaSkibidi6___> y[m
+
+[14:43:56] [Async Chat Thread - #8/INFO]: <null_21> brom to try night to day[m
+
+[14:44:02] [Async Chat Thread - #8/INFO]: <SigmaSkibidi6___> is alr day[m
+
+[14:44:06] [Server thread/INFO]: [@: Teleported null_21 to -391.5, 76.0, 302.5]
+[14:44:13] [Async Chat Thread - #8/INFO]: <SigmaSkibidi6___> gib starter kit[m
+
+[14:44:20] [Async Chat Thread - #8/INFO]: <null_21> fine even hough i did[m
+
+[14:44:25] [Server thread/INFO]: null_21 issued server command: /tp null_21 SigmaSkibidi6___
+[14:44:25] [Server thread/INFO]: [null_21: Teleported null_21 to SigmaSkibidi6___]
+[14:44:34] [Server thread/INFO]: null_21 issued server command: /gamemode 1
+[14:44:34] [Server thread/INFO]: [null_21: Set own game mode to Creative Mode]
+[14:44:41] [Async Chat Thread - #8/INFO]: <SigmaSkibidi6___> bro dat dummy fiaz kelled me and my kit is missing[m
+
+[14:44:59] [Server thread/INFO]: null_21 issued server command: /gamemode 0
+[14:44:59] [Server thread/INFO]: [null_21: Set own game mode to Survival Mode]
+[14:45:09] [Server thread/INFO]: null_21 issued server command: /gamemode 1
+[14:45:09] [Server thread/INFO]: [null_21: Set own game mode to Creative Mode]
+[14:45:10] [Async Chat Thread - #8/INFO]: <SigmaSkibidi6___> ey dont i get sword[m
+
+[14:45:20] [Server thread/INFO]: null_21 issued server command: /gamemode 0
+[14:45:20] [Server thread/INFO]: [null_21: Set own game mode to Survival Mode]
+[14:45:35] [Async Chat Thread - #8/INFO]: <SigmaSkibidi6___> ok now tp away[m
+
+[14:45:39] [Server thread/INFO]: null_21 issued server command: /home 1
+[14:45:41] [Async Chat Thread - #8/INFO]: <null_21> alr[m
+
+[14:46:08] [Async Chat Thread - #8/INFO]: <SigmaSkibidi6___> tanim i got iron[m
+
+[14:46:45] [Async Chat Thread - #8/INFO]: <SigmaSkibidi6___> dont take chicken tanim[m
+
+[14:47:36] [Async Chat Thread - #8/INFO]: <SigmaSkibidi6___> alr next periodi[m
+
+[14:47:38] [Server thread/INFO]: SigmaSkibidi6___ lost connection: Disconnected
+[14:47:38] [Server thread/INFO]: SigmaSkibidi6___ left the game.
+[14:50:18] [Thread-31/INFO]: UUID of player belietamer is 43b941d4-65ea-3b39-98b0-1187bb186729
+[14:50:18] [Server thread/INFO]: belietamer[/[0:0:0:0:0:0:0:1]:49810] logged in with entity id 13858 at ([world]-394.7650922753895, 23.5625, 301.0838913161781)
+[14:50:25] [Async Chat Thread - #9/INFO]: <null_21> ishamyel[m
+
+[14:50:27] [Async Chat Thread - #9/INFO]: <hamtanimpro> ishymael[m
+
+[14:50:31] [Async Chat Thread - #9/INFO]: <null_21> do /sethome 1[m
+
+[14:50:35] [Server thread/INFO]: hamtanimpro issued server command: /msg belietamer
+[14:50:41] [Server thread/INFO]: belietamer lost connection: Disconnected
+[14:50:41] [Server thread/INFO]: belietamer left the game.
+[14:51:45] [Thread-32/INFO]: UUID of player J0rge_979 is a5aba852-2edf-3b64-8510-4156c9072f68
+[14:51:46] [Server thread/INFO]: J0rge_979[/[0:0:0:0:0:0:0:1]:60924] logged in with entity id 13995 at ([world]-391.5615137867288, 9.10237968933469, 306.8858847784475)
+[14:51:50] [Server thread/INFO]: J0rge_979 lost connection: Disconnected
+[14:51:50] [Server thread/INFO]: J0rge_979 left the game.
+[14:52:01] [Thread-33/INFO]: UUID of player J0rge_978 is 8b446127-f373-3a88-945a-3dae012422d9
+[14:52:01] [Server thread/INFO]: J0rge_978[/[0:0:0:0:0:0:0:1]:32768] logged in with entity id 14024 at ([world]-387.9769784698137, 24.0, 300.30000001192093)
+[14:52:03] [Thread-34/INFO]: UUID of player belietamer is 43b941d4-65ea-3b39-98b0-1187bb186729
+[14:52:03] [Server thread/INFO]: belietamer[/[0:0:0:0:0:0:0:1]:36798] logged in with entity id 14060 at ([world]-394.7650922753895, 23.5625, 301.0838913161781)
+[14:52:14] [Server thread/INFO]: J0rge_978 issued server command: /sethome 1
+[14:52:17] [Async Chat Thread - #10/INFO]: <null_21> u TRAIOT[m
+
+[14:52:18] [Async Chat Thread - #10/INFO]: <belietamer> am in[m
+
+[14:52:19] [Server thread/INFO]: J0rge_978 issued server command: /home 1
+[14:52:19] [Async Chat Thread - #10/INFO]: <null_21> IHSYTAME:[m
+
+[14:52:26] [Async Chat Thread - #10/INFO]: <null_21> u TRAIORT[m
+
+[14:52:37] [Async Chat Thread - #10/INFO]: <belietamer> Awasnt me[m
+
+[14:52:42] [Async Chat Thread - #10/INFO]: <belietamer> am in lunch ked[m
+
+[14:52:46] [Async Chat Thread - #10/INFO]: <null_21> it u[m
+
+[14:52:56] [Async Chat Thread - #10/INFO]: <hamtanimpro> \[m
+
+[14:52:58] [Server thread/INFO]: Unknown command. Type "/help" for help.[m
+
+[14:53:19] [Async Chat Thread - #10/INFO]: <belietamer> bro i didnt play 4 a day wut ahppened[m
+
+[14:53:37] [Async Chat Thread - #10/INFO]: <null_21> tanim said u traiot[m
+
+[14:53:44] [Async Chat Thread - #10/INFO]: <belietamer> im not[m
+
+[14:53:49] [Async Chat Thread - #10/INFO]: <belietamer> am not tratir[m
+
+[14:53:52] [Async Chat Thread - #10/INFO]: <hamtanimpro> hes not[m
+
+[14:53:57] [Async Chat Thread - #10/INFO]: <hamtanimpro> its abir[m
+
+[14:53:58] [Async Chat Thread - #10/INFO]: <belietamer> am wont do traitory[m
+
+[14:54:07] [Async Chat Thread - #10/INFO]: <belietamer> we jump abir den[m
+
+[14:54:09] [Server thread/INFO]: null_21 issued server command: /tp belietamer
+[14:54:09] [Server thread/INFO]: [null_21: Teleported null_21 to belietamer]
+[14:54:14] [Async Chat Thread - #10/INFO]: <hamtanimpro> kill abir[m
+
+[14:54:20] [Async Chat Thread - #10/INFO]: <hamtanimpro> hes the traitoor[m
+
+[14:55:05] [Thread-36/INFO]: UUID of player ishmailisskibidi is 82726970-7653-3ba1-973f-95509012c07d
+[14:55:05] [Server thread/INFO]: ishmailisskibidi[/[0:0:0:0:0:0:0:1]:60148] logged in with entity id 14522 at ([world]-325.52670974839924, 73.0, 374.96247049837353)
+[14:55:11] [Async Chat Thread - #10/INFO]: <belietamer> EY[m
+
+[14:55:11] [Async Chat Thread - #10/INFO]: <hamtanimpro> ABID[m
+
+[14:55:37] [Server thread/INFO]: null_21 issued server command: /tp ishmailisskibidi null_21
+[14:55:37] [Server thread/INFO]: [null_21: Teleported ishmailisskibidi to null_21]
+[14:55:40] [Server thread/WARN]: ishmailisskibidi moved wrongly!
+[14:55:41] [Async Chat Thread - #10/INFO]: <belietamer> fiaz[m
+
+[14:55:46] [Async Chat Thread - #10/INFO]: <ishmailisskibidi> ishmail[m
+
+[14:55:46] [Async Chat Thread - #10/INFO]: <belietamer> 1v1 me rn[m
+
+[14:55:50] [Async Chat Thread - #10/INFO]: <ishmailisskibidi> no[m
+
+[14:55:52] [Async Chat Thread - #10/INFO]: <belietamer> y[m
+
+[14:55:59] [Async Chat Thread - #10/INFO]: <ishmailisskibidi> becuz am sigma[m
+
+[14:56:00] [Async Chat Thread - #10/INFO]: <hamtanimpro> the trator is abor[m
+
+[14:56:26] [Server thread/INFO]: ishmailisskibidi issued server command: /sethome 1
+[14:56:57] [Server thread/INFO]: null_21 issued server command: /gamemode 3
+[14:56:57] [Server thread/INFO]: [null_21: Set own game mode to Spectator Mode]
+[14:57:00] [Server thread/INFO]: ishmailisskibidi issued server command: /tp
+[14:57:13] [Thread-37/INFO]: UUID of player aborisprooo is 43d5bff6-25a3-309e-bd3d-7bf39d4b2325
+[14:57:13] [Server thread/INFO]: aborisprooo[/[0:0:0:0:0:0:0:1]:59196] logged in with entity id 14786 at ([world]-356.2249922981003, 31.0, 288.69999998807907)
+[14:57:30] [Server thread/FATAL]: Error executing task
+java.util.concurrent.ExecutionException: java.lang.IndexOutOfBoundsException: Index 87 out of bounds for length 45
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:?]
+	at java.util.concurrent.FutureTask.get(FutureTask.java:191) ~[?:?]
+	at net.minecraft.server.v1_8_R3.SystemUtils.a(SourceFile:45) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.B(MinecraftServer.java:774) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.DedicatedServer.B(DedicatedServer.java:378) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.A(MinecraftServer.java:713) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:616) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+Caused by: java.lang.IndexOutOfBoundsException: Index 87 out of bounds for length 45
+	at jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:100) ~[?:?]
+	at jdk.internal.util.Preconditions.outOfBoundsCheckIndex(Preconditions.java:106) ~[?:?]
+	at jdk.internal.util.Preconditions.checkIndex(Preconditions.java:302) ~[?:?]
+	at java.util.Objects.checkIndex(Objects.java:385) ~[?:?]
+	at java.util.ArrayList.get(ArrayList.java:427) ~[?:?]
+	at net.minecraft.server.v1_8_R3.Container.getSlot(Container.java:109) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PlayerConnection.a(PlayerConnection.java:1540) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PacketPlayInWindowClick.a(SourceFile:31) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PacketPlayInWindowClick.a(SourceFile:9) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PlayerConnectionUtils$1.run(SourceFile:13) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[?:?]
+	at net.minecraft.server.v1_8_R3.SystemUtils.a(SourceFile:44) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	... 5 more
+[14:57:35] [Server thread/FATAL]: Error executing task
+java.util.concurrent.ExecutionException: java.lang.IndexOutOfBoundsException: Index 87 out of bounds for length 45
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:?]
+	at java.util.concurrent.FutureTask.get(FutureTask.java:191) ~[?:?]
+	at net.minecraft.server.v1_8_R3.SystemUtils.a(SourceFile:45) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.B(MinecraftServer.java:774) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.DedicatedServer.B(DedicatedServer.java:378) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.A(MinecraftServer.java:713) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:616) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+Caused by: java.lang.IndexOutOfBoundsException: Index 87 out of bounds for length 45
+	at jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:100) ~[?:?]
+	at jdk.internal.util.Preconditions.outOfBoundsCheckIndex(Preconditions.java:106) ~[?:?]
+	at jdk.internal.util.Preconditions.checkIndex(Preconditions.java:302) ~[?:?]
+	at java.util.Objects.checkIndex(Objects.java:385) ~[?:?]
+	at java.util.ArrayList.get(ArrayList.java:427) ~[?:?]
+	at net.minecraft.server.v1_8_R3.Container.getSlot(Container.java:109) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PlayerConnection.a(PlayerConnection.java:1540) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PacketPlayInWindowClick.a(SourceFile:31) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PacketPlayInWindowClick.a(SourceFile:9) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PlayerConnectionUtils$1.run(SourceFile:13) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[?:?]
+	at net.minecraft.server.v1_8_R3.SystemUtils.a(SourceFile:44) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	... 5 more
+[14:57:43] [Server thread/INFO]: aborisprooo lost connection: Login timed out!
+[14:57:43] [Server thread/INFO]: aborisprooo left the game.
+[14:57:43] [Server thread/WARN]: handleDisconnection() called twice
+[14:57:57] [Server thread/FATAL]: Error executing task
+java.util.concurrent.ExecutionException: java.lang.IndexOutOfBoundsException: Index 78 out of bounds for length 45
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:?]
+	at java.util.concurrent.FutureTask.get(FutureTask.java:191) ~[?:?]
+	at net.minecraft.server.v1_8_R3.SystemUtils.a(SourceFile:45) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.B(MinecraftServer.java:774) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.DedicatedServer.B(DedicatedServer.java:378) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.A(MinecraftServer.java:713) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:616) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+Caused by: java.lang.IndexOutOfBoundsException: Index 78 out of bounds for length 45
+	at jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:100) ~[?:?]
+	at jdk.internal.util.Preconditions.outOfBoundsCheckIndex(Preconditions.java:106) ~[?:?]
+	at jdk.internal.util.Preconditions.checkIndex(Preconditions.java:302) ~[?:?]
+	at java.util.Objects.checkIndex(Objects.java:385) ~[?:?]
+	at java.util.ArrayList.get(ArrayList.java:427) ~[?:?]
+	at net.minecraft.server.v1_8_R3.Container.getSlot(Container.java:109) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PlayerConnection.a(PlayerConnection.java:1540) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PacketPlayInWindowClick.a(SourceFile:31) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PacketPlayInWindowClick.a(SourceFile:9) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PlayerConnectionUtils$1.run(SourceFile:13) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[?:?]
+	at net.minecraft.server.v1_8_R3.SystemUtils.a(SourceFile:44) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	... 5 more
+[14:57:58] [Server thread/FATAL]: Error executing task
+java.util.concurrent.ExecutionException: java.lang.IndexOutOfBoundsException: Index 87 out of bounds for length 45
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:?]
+	at java.util.concurrent.FutureTask.get(FutureTask.java:191) ~[?:?]
+	at net.minecraft.server.v1_8_R3.SystemUtils.a(SourceFile:45) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.B(MinecraftServer.java:774) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.DedicatedServer.B(DedicatedServer.java:378) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.A(MinecraftServer.java:713) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:616) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+Caused by: java.lang.IndexOutOfBoundsException: Index 87 out of bounds for length 45
+	at jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:100) ~[?:?]
+	at jdk.internal.util.Preconditions.outOfBoundsCheckIndex(Preconditions.java:106) ~[?:?]
+	at jdk.internal.util.Preconditions.checkIndex(Preconditions.java:302) ~[?:?]
+	at java.util.Objects.checkIndex(Objects.java:385) ~[?:?]
+	at java.util.ArrayList.get(ArrayList.java:427) ~[?:?]
+	at net.minecraft.server.v1_8_R3.Container.getSlot(Container.java:109) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PlayerConnection.a(PlayerConnection.java:1540) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PacketPlayInWindowClick.a(SourceFile:31) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PacketPlayInWindowClick.a(SourceFile:9) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PlayerConnectionUtils$1.run(SourceFile:13) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[?:?]
+	at net.minecraft.server.v1_8_R3.SystemUtils.a(SourceFile:44) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	... 5 more
+[14:58:16] [Async Chat Thread - #11/INFO]: <belietamer> were da lapiss[m
+
+[14:58:21] [Async Chat Thread - #11/INFO]: <ishmailisskibidi> here[m
+
+[14:58:25] [Async Chat Thread - #11/INFO]: <ishmailisskibidi> i have lapiz[m
+
+[14:58:42] [Server thread/INFO]: [@: Teleported ishmailisskibidi to -391.5, 76.0, 302.5]
+[14:59:09] [Server thread/INFO]: ishmailisskibidi issued server command: /home 1
+[14:59:34] [Server thread/INFO]: [@: Teleported ishmailisskibidi to -391.5, 76.0, 302.5]
+[14:59:40] [Async Chat Thread - #12/INFO]: <belietamer> abir trader[m
+
+[14:59:46] [Server thread/INFO]: ishmailisskibidi fell from a high place
+[14:59:49] [Server thread/INFO]: ishmailisskibidi issued server command: /back
+[14:59:58] [Async Chat Thread - #12/INFO]: <belietamer> das crezy[m
+
+[14:59:58] [Thread-38/INFO]: UUID of player aborisprooo is 43d5bff6-25a3-309e-bd3d-7bf39d4b2325
+[14:59:58] [Server thread/INFO]: aborisprooo[/[0:0:0:0:0:0:0:1]:49152] logged in with entity id 14947 at ([world]-356.2249922981003, 31.0, 288.69999998807907)
+[15:00:07] [Async Chat Thread - #12/INFO]: <belietamer> abir tanom sed u trader[m
+
+[15:00:17] [Async Chat Thread - #12/INFO]: <aborisprooo> help prayneesh[m
+
+[15:00:23] [Async Chat Thread - #12/INFO]: <belietamer> huh][m
+
+[15:00:28] [Server thread/INFO]: aborisprooo issued server command: /home 1
+[15:00:37] [Async Chat Thread - #12/INFO]: <belietamer> does praneesh know how to even get into base tho[m
+
+[15:00:40] [Async Chat Thread - #12/INFO]: <belietamer> tanim[m
+
+[15:00:50] [Async Chat Thread - #12/INFO]: <belietamer> does tanim even know how to ge tinto base[m
+
+[15:00:53] [Server thread/INFO]: null_21 issued server command: /tp aborisprooo aborisprooo
+[15:00:53] [Server thread/INFO]: [null_21: Teleported aborisprooo to aborisprooo]
+[15:00:54] [Async Chat Thread - #12/INFO]: <belietamer> tanim[m
+
+[15:01:04] [Server thread/INFO]: null_21 issued server command: /gamemode 0
+[15:01:04] [Server thread/INFO]: [null_21: Set own game mode to Survival Mode]
+[15:01:28] [Async Chat Thread - #12/INFO]: <belietamer> u alibe?[m
+
+[15:01:51] [Async Chat Thread - #12/INFO]: <belietamer> praneesh[m
+
+[15:02:10] [Server thread/INFO]: [@: Teleported belietamer to -391.5, 76.0, 302.5]
+[15:02:59] [Server thread/INFO]: Unknown command. Type "/help" for help.[m
+
+[15:03:24] [Server thread/INFO]: hamtanimpro issued server command: /4
+[15:03:28] [Server thread/INFO]: hamtanimpro issued server command: /4
+[15:03:30] [Server thread/INFO]: hamtanimpro issued server command: /4
+[15:03:35] [Server thread/INFO]: hamtanimpro issued server command: /
+[15:05:13] [Async Chat Thread - #13/INFO]: <belietamer> is oraneesh alive[m
+
+[15:05:35] [Async Chat Thread - #13/INFO]: <belietamer> finly bro[m
+
+[15:06:14] [Server thread/INFO]: aborisprooo was slain by ishmailisskibidi using [Abid Killer]
+[15:06:15] [Server thread/INFO]: ishmailisskibidi has just earned the achievement [Cow Tipper]
+[15:06:25] [Async Chat Thread - #13/INFO]: <belietamer> tabid kiler?[m
+
+[15:06:31] [Async Chat Thread - #13/INFO]: <belietamer> abid killer?[m
+
+[15:06:43] [Server thread/INFO]: null_21 issued server command: /tp aborisprooo null_21
+[15:06:43] [Server thread/INFO]: [null_21: Teleported aborisprooo to null_21]
+[15:06:55] [Async Chat Thread - #13/INFO]: <belietamer> abir[m
+
+[15:07:00] [Async Chat Thread - #13/INFO]: <belietamer> tanim sed u trader[m
+
+[15:07:06] [Server thread/INFO]: aborisprooo issued server command: /sethome 1
+[15:07:10] [Server thread/INFO]: aborisprooo issued server command: /home 1
+[15:07:10] [Async Chat Thread - #13/INFO]: <belietamer> is true?[m
+
+[15:07:14] [Server thread/INFO]: ishmailisskibidi issued server command: /home 1
+[15:07:26] [Async Chat Thread - #13/INFO]: <belietamer> yes or no?[m
+
+[15:07:44] [Server thread/WARN]: belietamer moved wrongly!
+[15:07:45] [Server thread/WARN]: belietamer moved wrongly!
+[15:08:01] [Async Chat Thread - #13/INFO]: <belietamer> is trader?[m
+
+[15:08:13] [Server thread/INFO]: hamtanimpro has just earned the achievement [Cow Tipper]
+[15:08:17] [Async Chat Thread - #13/INFO]: <ishmailisskibidi> ishmail[m
+
+[15:08:21] [Async Chat Thread - #13/INFO]: <ishmailisskibidi> stop smacking him[m
+
+[15:08:27] [Async Chat Thread - #13/INFO]: <null_21> ishymael go up[m
+
+[15:08:31] [Async Chat Thread - #13/INFO]: <belietamer> tanim sed he trader tho[m
+
+[15:10:08] [Server thread/WARN]: null_21 moved wrongly!
+[15:10:09] [Server thread/WARN]: null_21 moved wrongly!
+[15:10:15] [Async Chat Thread - #14/INFO]: <belietamer> u smell like poopoo[m
+
+[15:11:40] [Server thread/WARN]: null_21 moved wrongly!
+[15:12:27] [Async Chat Thread - #15/INFO]: <null_21> IHSYAMEL U STOLE MY DIAMOND PIXACLEw[m
+
+[15:12:34] [Async Chat Thread - #15/INFO]: <belietamer> huh[m
+
+[15:12:40] [Async Chat Thread - #15/INFO]: <belietamer> i was searching for food[m
+
+[15:12:58] [Server thread/INFO]: J0rge_978 fell from a high place
+[15:12:59] [Server thread/INFO]: Unknown command. Type "/help" for help.[m
+
+[15:13:01] [Server thread/INFO]: J0rge_978 issued server command: /back
+[15:13:34] [Async Chat Thread - #15/INFO]: <null_21> STOP[m
+
+[15:13:34] [Async Chat Thread - #15/INFO]: <belietamer> is was acident[m
+
+[15:14:00] [Async Chat Thread - #15/INFO]: <null_21> ishyamel corunch[m
+
+[15:14:11] [Async Chat Thread - #15/INFO]: <belietamer> ty[m
+
+[15:14:13] [Async Chat Thread - #15/INFO]: <belietamer> y[m
+
+[15:14:15] [Async Chat Thread - #15/INFO]: <null_21> do iT[m
+
+[15:14:22] [Async Chat Thread - #15/INFO]: <belietamer> i am[m
+
+[15:14:27] [Async Chat Thread - #15/INFO]: <null_21> ok dont un crounch[m
+
+[15:14:35] [Async Chat Thread - #15/INFO]: <belietamer> Y[m
+
+[15:14:44] [Server thread/INFO]: null_21 issued server command: /tpa aborisprooo
+[15:14:51] [Server thread/INFO]: aborisprooo issued server command: /tp accept
+[15:14:55] [Async Chat Thread - #15/INFO]: <belietamer> alr ama go now[m
+
+[15:14:57] [Server thread/INFO]: aborisprooo issued server command: /tpa accept
+[15:14:59] [Async Chat Thread - #15/INFO]: <belietamer> il jein back next period[m
+
+[15:15:03] [Server thread/INFO]: aborisprooo issued server command: /accept
+[15:15:06] [Async Chat Thread - #15/INFO]: <belietamer> also we going outside 4 lunch[m
+
+[15:15:11] [Async Chat Thread - #15/INFO]: <belietamer> bye bye[m
+
+[15:15:13] [Server thread/INFO]: belietamer lost connection: Disconnected
+[15:15:13] [Server thread/INFO]: belietamer left the game.
+[15:15:39] [Server thread/INFO]: null_21 issued server command: /tp aborisprooo
+[15:15:39] [Server thread/INFO]: [null_21: Teleported null_21 to aborisprooo]
+[15:16:38] [Server thread/INFO]: ishmailisskibidi lost connection: Disconnected
+[15:16:38] [Server thread/INFO]: ishmailisskibidi left the game.
+[15:17:07] [Server thread/INFO]: hamtanimpro issued server command: /home base
+[15:17:43] [Server thread/INFO]: aborisprooo issued server command: /home 1
+[15:17:51] [Thread-39/INFO]: UUID of player ishmailisskibidi is 82726970-7653-3ba1-973f-95509012c07d
+[15:17:51] [Server thread/INFO]: ishmailisskibidi[/[0:0:0:0:0:0:0:1]:57918] logged in with entity id 19234 at ([world_nether]125.17484323974467, 75.78502770378924, 117.80348450940842)
+[15:18:23] [Server thread/INFO]: ishmailisskibidi issued server command: /home 1
+[15:18:27] [Server thread/INFO]: ishmailisskibidi was burnt to a crisp whilst fighting Blaze
+[15:18:32] [Server thread/INFO]: ishmailisskibidi issued server command: /back
+[15:18:49] [Server thread/INFO]: ishmailisskibidi issued server command: /home 1
+[15:18:54] [Server thread/INFO]: ishmailisskibidi issued server command: /home 1
+[15:20:35] [Server thread/INFO]: aborisprooo issued server command: /home 1
+[15:21:07] [Server thread/WARN]: ishmailisskibidi moved wrongly!
+[15:21:25] [Server thread/INFO]: hamtanimpro issued server command: /reset pass
+[15:21:51] [Server thread/INFO]: ishmailisskibidi issued server command: /home 1
+[15:22:11] [Server thread/INFO]: ishmailisskibidi lost connection: Disconnected
+[15:22:11] [Server thread/INFO]: ishmailisskibidi left the game.
+[15:22:20] [Thread-40/INFO]: UUID of player ishmailisskibidi is 82726970-7653-3ba1-973f-95509012c07d
+[15:22:20] [Server thread/INFO]: ishmailisskibidi[/[0:0:0:0:0:0:0:1]:47562] logged in with entity id 20105 at ([world]-389.7290651193289, 23.0, 302.3148834430039)
+[15:22:59] [Server thread/INFO]: Unknown command. Type "/help" for help.[m
+
+[15:23:42] [Thread-41/INFO]: UUID of player Tonytime is 89a56521-3670-3ae4-b082-45bf51927a4e
+[15:23:42] [Server thread/INFO]: Tonytime[/[0:0:0:0:0:0:0:1]:60812] logged in with entity id 20267 at ([world]-239.5, 68.0, 256.5)
+[15:24:00] [Async Chat Thread - #16/INFO]: <aborisprooo> antonio nub[m
+
+[15:24:28] [Async Chat Thread - #16/INFO]: <Tonytime> can i team with yall[m
+
+[15:24:48] [Async Chat Thread - #16/INFO]: <hamtanimpro> w[m
+
+[15:24:50] [Async Chat Thread - #16/INFO]: <null_21> anitono join my team[m
+
+[15:24:53] [Async Chat Thread - #16/INFO]: <hamtanimpro> nah join mine[m
+
+[15:25:04] [Async Chat Thread - #16/INFO]: <null_21> na join praneesh cause he sigma[m
+
+[15:25:34] [Async Chat Thread - #16/INFO]: <aborisprooo> antonio tanim stole his teammate's loot so dont join him[m
+
+[15:25:35] [Async Chat Thread - #16/INFO]: <Tonytime> i wanna join praneesh bro tanim I took ur iron btw[m
+
+[15:25:42] [Async Chat Thread - #16/INFO]: <null_21> yessir[m
+
+[15:25:43] [Async Chat Thread - #16/INFO]: <aborisprooo> LOLL[m
+
+[15:25:44] [Async Chat Thread - #16/INFO]: <hamtanimpro> bro give it back[m
+
+[15:25:52] [Async Chat Thread - #16/INFO]: <null_21> alr i will tp u to base later[m
+
+[15:26:09] [Server thread/INFO]: J0rge_978 issued server command: /home 1
+[15:26:11] [Server thread/INFO]: null_21 fell from a high place
+[15:26:15] [Server thread/INFO]: null_21 issued server command: /back
+[15:26:18] [Async Chat Thread - #16/INFO]: <aborisprooo> bruh[m
+
+[15:26:24] [Async Chat Thread - #16/INFO]: <aborisprooo> :skull:[m
+
+[15:26:39] [Server thread/WARN]: null_21 moved wrongly!
+[15:27:00] [Server thread/INFO]: aborisprooo issued server command: /tpa ishmailisskibidi
+[15:27:08] [Server thread/INFO]: ishmailisskibidi issued server command: /acceept
+[15:27:12] [Server thread/INFO]: ishmailisskibidi issued server command: /acceptt
+[15:27:13] [Async Chat Thread - #16/INFO]: <Tonytime> can i tp to yall base[m
+
+[15:27:24] [Server thread/INFO]: ishmailisskibidi issued server command: /tpa accep
+[15:27:32] [Server thread/INFO]: ishmailisskibidi issued server command: /tpa accept
+[15:27:43] [Server thread/INFO]: aborisprooo issued server command: /tpa ishmailisskibidi
+[15:27:46] [Server thread/INFO]: ishmailisskibidi issued server command: /tpa Jorge_978
+[15:27:52] [Async Chat Thread - #16/INFO]: <Tonytime> praneesh can u force tp me[m
+
+[15:27:55] [Server thread/INFO]: ishmailisskibidi issued server command: /tpa J0rge_978
+[15:28:00] [Server thread/INFO]: J0rge_978 issued server command: /tpa accept
+[15:28:09] [Server thread/INFO]: ishmailisskibidi issued server command: /home 1
+[15:28:12] [Server thread/INFO]: Tonytime issued server command: /tpa abor
+[15:29:54] [Server thread/INFO]: Tonytime was slain by hamtanimpro
+[15:30:04] [Async Chat Thread - #17/INFO]: <aborisprooo> WHERE HIS BAE?[m
+
+[15:30:09] [Server thread/INFO]: aborisprooo lost connection: Disconnected
+[15:30:09] [Server thread/INFO]: aborisprooo left the game.
+[15:30:11] [Server thread/INFO]: ishmailisskibidi lost connection: Disconnected
+[15:30:11] [Server thread/INFO]: ishmailisskibidi left the game.
+[15:30:12] [Async Chat Thread - #17/INFO]: <null_21> ANITO U HEART[m
+
+[15:30:13] [Async Chat Thread - #17/INFO]: <Tonytime> bro[m
+
+[15:30:16] [Server thread/INFO]: Tonytime lost connection: Disconnected
+[15:30:16] [Server thread/INFO]: Tonytime left the game.
+[15:30:18] [Server thread/INFO]: null_21 lost connection: Disconnected
+[15:30:18] [Server thread/INFO]: null_21 left the game.
+[15:30:27] [Server thread/INFO]: hamtanimpro lost connection: Disconnected
+[15:30:27] [Server thread/INFO]: hamtanimpro left the game.
+[15:30:33] [Server thread/INFO]: J0rge_978 lost connection: Disconnected
+[15:30:33] [Server thread/INFO]: J0rge_978 left the game.
+[15:33:00] [Server thread/INFO]: Unknown command. Type "/help" for help.[m
+
+[15:39:55] [Thread-43/INFO]: UUID of player aborisprooo is 43d5bff6-25a3-309e-bd3d-7bf39d4b2325
+[15:39:56] [Server thread/INFO]: aborisprooo[/[0:0:0:0:0:0:0:1]:38506] logged in with entity id 21626 at ([world]-382.74300627749847, 25.0, 300.49524842986693)
+[15:43:00] [Server thread/INFO]: Unknown command. Type "/help" for help.[m
+
+[15:46:58] [Server thread/INFO]: aborisprooo issued server command: /home 1
+[15:48:28] [Thread-44/INFO]: UUID of player J0rge_978 is 8b446127-f373-3a88-945a-3dae012422d9
+[15:48:28] [Server thread/INFO]: J0rge_978[/[0:0:0:0:0:0:0:1]:55862] logged in with entity id 22188 at ([world]-383.6560837940349, 25.0, 300.29496090823096)
+[15:51:39] [Async Chat Thread - #18/INFO]: <J0rge_978> no check the players[m
+
+[15:51:49] [Async Chat Thread - #18/INFO]: <aborisprooo> no he is the traitor[m
+
+[15:51:55] [Server thread/INFO]: J0rge_978 issued server command: /oh ok
+[15:51:58] [Async Chat Thread - #18/INFO]: <J0rge_978> ok[m
+
+[15:52:06] [Async Chat Thread - #18/INFO]: <aborisprooo> leave this for praneesh[m
+
+[15:52:14] [Async Chat Thread - #18/INFO]: <aborisprooo> ima make some chests[m
+
+[15:52:18] [Async Chat Thread - #18/INFO]: <J0rge_978> Ima get off in a bit because we going outside[m
+
+[15:52:23] [Async Chat Thread - #18/INFO]: <aborisprooo> k[m
+
+[15:53:00] [Server thread/INFO]: Unknown command. Type "/help" for help.[m
+
+[15:53:41] [Async Chat Thread - #19/INFO]: <aborisprooo> S[m
+
+[15:53:50] [Async Chat Thread - #19/INFO]: <aborisprooo> ima go for some iron[m
+
+[15:54:07] [Server thread/INFO]: J0rge_978 lost connection: Disconnected
+[15:54:07] [Server thread/INFO]: J0rge_978 left the game.
+[16:00:46] [Server thread/INFO]: aborisprooo lost connection: Disconnected
+[16:00:46] [Server thread/INFO]: aborisprooo left the game.
+[16:00:52] [Thread-46/INFO]: UUID of player aborisprooo is 43d5bff6-25a3-309e-bd3d-7bf39d4b2325
+[16:00:52] [Server thread/INFO]: aborisprooo[/[0:0:0:0:0:0:0:1]:36494] logged in with entity id 22783 at ([world]-382.30000001192093, 24.0, 291.88149360231546)
+[16:01:08] [Server thread/INFO]: aborisprooo issued server command: /home 1
+[16:01:17] [Server thread/INFO]: aborisprooo lost connection: Disconnected
+[16:01:17] [Server thread/INFO]: aborisprooo left the game.
+[16:03:00] [Server thread/INFO]: Unknown command. Type "/help" for help.[m
+
+[16:07:54] [Thread-47/INFO]: UUID of player aborisprooo is 43d5bff6-25a3-309e-bd3d-7bf39d4b2325
+[16:07:55] [Server thread/INFO]: aborisprooo[/[0:0:0:0:0:0:0:1]:53668] logged in with entity id 22871 at ([world]-389.5282382588824, 23.0, 304.38198420168436)
+[16:08:00] [Thread-48/INFO]: UUID of player belietamer is 43b941d4-65ea-3b39-98b0-1187bb186729
+[16:08:00] [Server thread/INFO]: belietamer[/[0:0:0:0:0:0:0:1]:53680] logged in with entity id 22950 at ([world]-392.8302776599678, 23.0, 304.5487979711152)
+[16:08:15] [Async Chat Thread - #20/INFO]: <aborisprooo> ish[m
+
+[16:08:20] [Async Chat Thread - #20/INFO]: <belietamer> trader[m
+
+[16:08:20] [Async Chat Thread - #20/INFO]: <aborisprooo> come[m
+
+[16:08:29] [Async Chat Thread - #20/INFO]: <belietamer> taniom sed u trader[m
+
+[16:08:34] [Async Chat Thread - #20/INFO]: <aborisprooo> what is this[m
+
+[16:08:41] [Async Chat Thread - #20/INFO]: <aborisprooo> i report you nub[m
+
+[16:08:48] [Async Chat Thread - #20/INFO]: <belietamer> wdym[m
+
+[16:08:54] [Async Chat Thread - #20/INFO]: <belietamer> y is dis part of base blocked of[m
+
+[16:08:58] [Async Chat Thread - #20/INFO]: <aborisprooo> idk[m
+
+[16:09:02] [Async Chat Thread - #20/INFO]: <aborisprooo> i think it praneesh[m
+
+[16:09:33] [Async Chat Thread - #20/INFO]: <aborisprooo> is you the trader[m
+
+[16:09:36] [Async Chat Thread - #20/INFO]: <belietamer> no[m
+
+[16:09:42] [Async Chat Thread - #20/INFO]: <aborisprooo> ok[m
+
+[16:09:44] [Async Chat Thread - #20/INFO]: <belietamer> tsanim trna maek me trator w=am no trader do[m
+
+[16:09:57] [Async Chat Thread - #20/INFO]: <belietamer> tanim trna maek me trader[m
+
+[16:09:58] [Async Chat Thread - #20/INFO]: <aborisprooo> say wallah your not the trader[m
+
+[16:10:03] [Async Chat Thread - #20/INFO]: <belietamer> wallah im not the trader[m
+
+[16:10:18] [Async Chat Thread - #20/INFO]: <aborisprooo> say traitor[m
+
+[16:10:22] [Async Chat Thread - #20/INFO]: <belietamer> wutb u hab 6th pierdiod[m
+
+[16:10:27] [Async Chat Thread - #20/INFO]: <aborisprooo> lunch[m
+
+[16:10:31] [Async Chat Thread - #20/INFO]: <belietamer> wallah im not the traitor[m
+
+[16:10:36] [Async Chat Thread - #20/INFO]: <aborisprooo> who is it?[m
+
+[16:10:41] [Async Chat Thread - #20/INFO]: <belietamer> idk[m
+
+[16:10:43] [Async Chat Thread - #20/INFO]: <aborisprooo> cause im not[m
+
+[16:11:03] [Async Chat Thread - #20/INFO]: <belietamer> who u hav 6th period[m
+
+[16:11:13] [Async Chat Thread - #20/INFO]: <aborisprooo> lunch[m
+
+[16:11:18] [Async Chat Thread - #20/INFO]: <aborisprooo> ima go to lunch now[m
+
+[16:11:20] [Async Chat Thread - #20/INFO]: <belietamer> no sixth[m
+
+[16:11:20] [Server thread/INFO]: aborisprooo lost connection: Disconnected
+[16:11:20] [Server thread/INFO]: aborisprooo left the game.
+[16:13:01] [Server thread/INFO]: Unknown command. Type "/help" for help.[m
+
+[16:16:21] [Server thread/INFO]: belietamer lost connection: Disconnected
+[16:16:21] [Server thread/INFO]: belietamer left the game.
+[16:18:00] [Thread-49/INFO]: UUID of player ishmailisskibidi is 82726970-7653-3ba1-973f-95509012c07d
+[16:18:00] [Server thread/INFO]: ishmailisskibidi[/[0:0:0:0:0:0:0:1]:53714] logged in with entity id 23298 at ([world]-381.69999998807907, 24.0, 287.9678929702463)
+[16:18:11] [Thread-50/INFO]: UUID of player belietamer is 43b941d4-65ea-3b39-98b0-1187bb186729
+[16:18:11] [Server thread/INFO]: belietamer[/[0:0:0:0:0:0:0:1]:39256] logged in with entity id 23352 at ([world]-392.8680692145822, 23.0, 304.75798270140785)

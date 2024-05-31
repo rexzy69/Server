@@ -1,0 +1,334 @@
+[11:48:51] [main/INFO]: Using mbed TLS based native cipher.
+[11:48:51] [main/INFO]: Using zlib based native compressor.
+[11:48:51] [main/INFO]: Enabled Waterfall version git:Waterfall-Bootstrap:1.19-R0.1-SNAPSHOT:f6069e2:513
+[11:48:51] [main/INFO]: Not on Windows, attempting to use enhanced EpollEventLoop
+[11:48:51] [main/INFO]: Epoll is working, utilising it!
+[11:48:52] [main/INFO]: Discovered module: ModuleSpec(name=cmd_alert, file=modules/cmd_alert.jar, provider=JenkinsModuleSource())
+[11:48:52] [main/INFO]: Discovered module: ModuleSpec(name=cmd_find, file=modules/cmd_find.jar, provider=JenkinsModuleSource())
+[11:48:52] [main/INFO]: Discovered module: ModuleSpec(name=cmd_list, file=modules/cmd_list.jar, provider=JenkinsModuleSource())
+[11:48:52] [main/INFO]: Discovered module: ModuleSpec(name=cmd_send, file=modules/cmd_send.jar, provider=JenkinsModuleSource())
+[11:48:52] [main/INFO]: Discovered module: ModuleSpec(name=cmd_server, file=modules/cmd_server.jar, provider=JenkinsModuleSource())
+[11:48:52] [main/INFO]: Discovered module: ModuleSpec(name=reconnect_yaml, file=modules/reconnect_yaml.jar, provider=JenkinsModuleSource())
+[11:48:52] [main/INFO]: Loaded plugin reconnect_yaml version git:reconnect_yaml:1.19-R0.1-SNAPSHOT:f6069e2:513 by WaterfallMC
+[11:48:52] [main/INFO]: Loaded plugin cmd_find version git:cmd_find:1.19-R0.1-SNAPSHOT:f6069e2:513 by WaterfallMC
+[11:48:52] [main/INFO]: Loaded plugin cmd_server version git:cmd_server:1.19-R0.1-SNAPSHOT:f6069e2:513 by WaterfallMC
+[11:48:52] [main/INFO]: Loaded plugin cmd_alert version git:cmd_alert:1.19-R0.1-SNAPSHOT:f6069e2:513 by WaterfallMC
+[11:48:52] [main/INFO]: Loaded plugin cmd_send version git:cmd_send:1.19-R0.1-SNAPSHOT:f6069e2:513 by WaterfallMC
+[11:48:52] [main/INFO]: Loaded plugin cmd_list version git:cmd_list:1.19-R0.1-SNAPSHOT:f6069e2:513 by WaterfallMC
+[11:48:52] [main/WARN]: :>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>
+[11:48:52] [main/WARN]: :>  
+[11:48:52] [main/WARN]: :>      EAGLERCRAFTXBUNGEE WARNING:
+[11:48:52] [main/WARN]: :>  
+[11:48:52] [main/WARN]: :>  This plugin wasn't tested to be 'working'
+[11:48:52] [main/WARN]: :>  with ANY version of BungeeCord (and forks)
+[11:48:52] [main/WARN]: :>  apart from the versions listed below:
+[11:48:52] [main/WARN]: :>  
+[11:48:52] [main/WARN]: :>  - BungeeCord: 1.20-R0.3-SNAPSHOT:eda268b:1797
+[11:48:52] [main/WARN]: :>  - Waterfall: 1.20-R0.2-SNAPSHOT:92b5149:562
+[11:48:52] [main/WARN]: :>  - FlameCord: 1.1.1
+[11:48:52] [main/WARN]: :>  
+[11:48:52] [main/WARN]: :>  This is not a Bukkit/Spigot plugin!
+[11:48:52] [main/WARN]: :>  
+[11:48:52] [main/WARN]: :>  Use "-Deaglerxbungee.stfu=true" to hide
+[11:48:52] [main/WARN]: :>  
+[11:48:52] [main/WARN]: :>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>
+[11:48:52] [main/INFO] [EaglercraftXBungee]: Loading vanilla profile: lax1dude
+[11:48:54] [Skin Download Thread #0/ERROR] [EaglercraftXBungee]: Recieved code 429 while looking up UUID of lax1dude
+[11:48:54] [main/INFO]: Loaded plugin EaglercraftXBungee version 1.0.10 by lax1dude
+[11:48:54] [main/WARN]: Could not load server icon
+java.lang.IllegalArgumentException: Server icon must be exactly 64x64 pixels
+	at net.md_5.bungee.api.Favicon.create(Favicon.java:65) ~[bungee.jar:git:Waterfall-Bootstrap:1.19-R0.1-SNAPSHOT:f6069e2:513]
+	at net.md_5.bungee.conf.Configuration.load(Configuration.java:89) ~[bungee.jar:git:Waterfall-Bootstrap:1.19-R0.1-SNAPSHOT:f6069e2:513]
+	at io.github.waterfallmc.waterfall.conf.WaterfallConfiguration.load(WaterfallConfiguration.java:67) ~[bungee.jar:git:Waterfall-Bootstrap:1.19-R0.1-SNAPSHOT:f6069e2:513]
+	at net.md_5.bungee.BungeeCord.start(BungeeCord.java:288) ~[bungee.jar:git:Waterfall-Bootstrap:1.19-R0.1-SNAPSHOT:f6069e2:513]
+	at net.md_5.bungee.BungeeCordLauncher.main(BungeeCordLauncher.java:67) ~[bungee.jar:git:Waterfall-Bootstrap:1.19-R0.1-SNAPSHOT:f6069e2:513]
+	at net.md_5.bungee.Bootstrap.main(Bootstrap.java:15) ~[bungee.jar:git:Waterfall-Bootstrap:1.19-R0.1-SNAPSHOT:f6069e2:513]
+[11:48:54] [main/WARN]: Forced host server pvp is not defined
+[11:48:54] [EaglerXBungee: Network Tick Tasks/INFO] [EaglercraftXBungee]: Downloading new certificate: https://eaglercraft.com/backup.cert
+[11:48:54] [main/INFO]: Enabled plugin reconnect_yaml version git:reconnect_yaml:1.19-R0.1-SNAPSHOT:f6069e2:513 by WaterfallMC
+[11:48:54] [main/INFO]: Enabled plugin cmd_find version git:cmd_find:1.19-R0.1-SNAPSHOT:f6069e2:513 by WaterfallMC
+[11:48:54] [main/INFO]: Enabled plugin cmd_server version git:cmd_server:1.19-R0.1-SNAPSHOT:f6069e2:513 by WaterfallMC
+[11:48:54] [main/INFO]: Enabled plugin cmd_alert version git:cmd_alert:1.19-R0.1-SNAPSHOT:f6069e2:513 by WaterfallMC
+[11:48:54] [main/INFO]: Enabled plugin cmd_send version git:cmd_send:1.19-R0.1-SNAPSHOT:f6069e2:513 by WaterfallMC
+[11:48:54] [main/INFO]: Enabled plugin cmd_list version git:cmd_list:1.19-R0.1-SNAPSHOT:f6069e2:513 by WaterfallMC
+[11:48:54] [main/ERROR] [EaglercraftXBungee]: Online mode is set to false! Authentication system has been disabled
+[11:48:54] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: Eaglercraft is listening on: /0.0.0.0:8081
+[11:48:54] [EaglerXBungee: Network Tick Tasks/WARN] [EaglercraftXBungee]: Deleting stale certificate: $dl.36f4cf2b9f9f3eb802b83ceecd0083b45c6001f9.cert
+[11:48:54] [EaglerXBungee: Network Tick Tasks/INFO] [EaglercraftXBungee]: Loaded certificate: /workspaces/Server/bungee/plugins/EaglercraftXBungee/eagcert/$dl.5b2a44263e75935c207f92555fb26054d13253b8.cert
+[11:48:55] [main/INFO] [EaglercraftXBungee]: Connected to database: jdbc:sqlite:eaglercraft_skins_cache.db
+[11:48:55] [main/INFO]: Enabled plugin EaglercraftXBungee version 1.0.10 by lax1dude
+[11:48:55] [Netty Boss IO Thread #0/INFO]: Listening on /127.0.0.1:25577
+[12:34:30] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:56734]: Connected via websocket
+[12:34:30] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:56734]: Origin header is https://123-2.surge.sh
+[12:34:30] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:56734]: Logged in as 'prettytotouch'
+[12:34:30] [Netty Worker IO Thread #2/INFO]: [/[0:0:0:0:0:0:0:1%0]:56734|prettytotouch] -> UpstreamBridge has connected
+[12:34:30] [Netty Worker IO Thread #2/INFO]: [prettytotouch|/[0:0:0:0:0:0:0:1%0]:56734] <-> ServerConnector [lobby] has connected
+[12:34:47] [Netty Worker IO Thread #2/INFO]: [/[0:0:0:0:0:0:0:1%0]:56734|prettytotouch] -> UpstreamBridge has disconnected
+[12:34:47] [Netty Worker IO Thread #2/INFO]: [prettytotouch] disconnected with: Proxy lost connection to server.
+[12:34:47] [Netty Worker IO Thread #2/INFO]: [/[0:0:0:0:0:0:0:1%0]:56734|prettytotouch] <-> DownstreamBridge <-> [lobby] has disconnected
+[12:34:57] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:53726]: Connected via websocket
+[12:34:57] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:53726]: Origin header is https://123-2.surge.sh
+[12:34:57] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:53726]: Logged in as 'prettytotouch1'
+[12:34:57] [Netty Worker IO Thread #1/INFO]: [/[0:0:0:0:0:0:0:1%0]:53726|prettytotouch1] -> UpstreamBridge has connected
+[12:34:57] [Netty Worker IO Thread #1/INFO]: [prettytotouch1|/[0:0:0:0:0:0:0:1%0]:53726] <-> ServerConnector [lobby] has connected
+[12:37:33] [Netty Worker IO Thread #1/INFO]: [/[0:0:0:0:0:0:0:1%0]:53726|prettytotouch1] -> UpstreamBridge has disconnected
+[12:37:33] [Netty Worker IO Thread #1/INFO]: [prettytotouch1] disconnected with: Proxy lost connection to server.
+[12:37:33] [Netty Worker IO Thread #1/INFO]: [/[0:0:0:0:0:0:0:1%0]:53726|prettytotouch1] <-> DownstreamBridge <-> [lobby] has disconnected
+[12:38:59] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:58812]: Connected via websocket
+[12:38:59] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:58812]: Origin header is https://123-2.surge.sh
+[12:39:00] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:58812]: Logged in as 'prettytotouch1'
+[12:39:00] [Netty Worker IO Thread #3/INFO]: [/[0:0:0:0:0:0:0:1%0]:58812|prettytotouch1] -> UpstreamBridge has connected
+[12:39:00] [Netty Worker IO Thread #3/INFO]: [prettytotouch1|/[0:0:0:0:0:0:0:1%0]:58812] <-> ServerConnector [lobby] has connected
+[12:39:30] [Netty Worker IO Thread #3/INFO]: [prettytotouch1] disconnected with: Login timed out!
+[12:39:30] [Netty Worker IO Thread #3/INFO]: [/[0:0:0:0:0:0:0:1%0]:58812|prettytotouch1] -> UpstreamBridge has disconnected
+[12:39:30] [Netty Worker IO Thread #3/INFO]: [/[0:0:0:0:0:0:0:1%0]:58812|prettytotouch1] <-> DownstreamBridge <-> [lobby] has disconnected
+[12:39:35] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:40198]: Connected via websocket
+[12:39:35] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:40198]: Origin header is https://123-2.surge.sh
+[12:39:35] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:40198]: Logged in as 'prettytotouch1'
+[12:39:35] [Netty Worker IO Thread #0/INFO]: [/[0:0:0:0:0:0:0:1%0]:40198|prettytotouch1] -> UpstreamBridge has connected
+[12:39:35] [Netty Worker IO Thread #0/INFO]: [prettytotouch1|/[0:0:0:0:0:0:0:1%0]:40198] <-> ServerConnector [lobby] has connected
+[12:39:47] [Netty Worker IO Thread #0/INFO]: [/[0:0:0:0:0:0:0:1%0]:40198|prettytotouch1] -> UpstreamBridge has disconnected
+[12:39:47] [Netty Worker IO Thread #0/INFO]: [prettytotouch1] disconnected with: Proxy lost connection to server.
+[12:39:47] [Netty Worker IO Thread #0/INFO]: [/[0:0:0:0:0:0:0:1%0]:40198|prettytotouch1] <-> DownstreamBridge <-> [lobby] has disconnected
+[12:39:55] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:46082]: Connected via websocket
+[12:39:55] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:46082]: Origin header is https://123-2.surge.sh
+[12:39:55] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:46082]: Logged in as 'prettytotouch12'
+[12:39:55] [Netty Worker IO Thread #3/INFO]: [/[0:0:0:0:0:0:0:1%0]:46082|prettytotouch12] -> UpstreamBridge has connected
+[12:39:55] [Netty Worker IO Thread #3/INFO]: [prettytotouch12|/[0:0:0:0:0:0:0:1%0]:46082] <-> ServerConnector [lobby] has connected
+[12:42:03] [Netty Worker IO Thread #3/INFO]: [/[0:0:0:0:0:0:0:1%0]:46082|prettytotouch12] -> UpstreamBridge has disconnected
+[12:42:03] [Netty Worker IO Thread #3/INFO]: [prettytotouch12] disconnected with: Proxy lost connection to server.
+[12:42:03] [Netty Worker IO Thread #3/INFO]: [/[0:0:0:0:0:0:0:1%0]:46082|prettytotouch12] <-> DownstreamBridge <-> [lobby] has disconnected
+[12:45:56] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:33728]: Connected via websocket
+[12:45:56] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:33728]: Origin header is https://123-2.surge.sh
+[12:45:56] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:33728]: Logged in as 'J0rge_978'
+[12:45:56] [Netty Worker IO Thread #1/INFO]: [/[0:0:0:0:0:0:0:1%0]:33728|J0rge_978] -> UpstreamBridge has connected
+[12:45:56] [Netty Worker IO Thread #1/INFO]: [J0rge_978|/[0:0:0:0:0:0:0:1%0]:33728] <-> ServerConnector [lobby] has connected
+[12:47:17] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:34882]: Connected via websocket
+[12:47:17] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:34882]: Origin header is https://123-2.surge.sh
+[12:47:17] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:34882]: Logged in as 'SigmaSkibidi6_'
+[12:47:17] [Netty Worker IO Thread #3/INFO]: [/[0:0:0:0:0:0:0:1%0]:34882|SigmaSkibidi6_] -> UpstreamBridge has connected
+[12:47:17] [Netty Worker IO Thread #3/INFO]: [SigmaSkibidi6_|/[0:0:0:0:0:0:0:1%0]:34882] <-> ServerConnector [lobby] has connected
+[12:49:33] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:46784]: Connected via websocket
+[12:49:33] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:46784]: Origin header is https://123-2.surge.sh
+[12:49:33] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:46784]: Logged in as 'hamtanimpro'
+[12:49:33] [Netty Worker IO Thread #1/INFO]: [/[0:0:0:0:0:0:0:1%0]:46784|hamtanimpro] -> UpstreamBridge has connected
+[12:49:33] [Netty Worker IO Thread #1/INFO]: [hamtanimpro|/[0:0:0:0:0:0:0:1%0]:46784] <-> ServerConnector [lobby] has connected
+[12:54:42] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:37768]: Connected via websocket
+[12:54:42] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:37768]: Origin header is https://123-2.surge.sh
+[12:54:42] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:37768]: Logged in as 'Tony_time22'
+[12:54:42] [Netty Worker IO Thread #3/INFO]: [/[0:0:0:0:0:0:0:1%0]:37768|Tony_time22] -> UpstreamBridge has connected
+[12:54:42] [Netty Worker IO Thread #3/INFO]: [Tony_time22|/[0:0:0:0:0:0:0:1%0]:37768] <-> ServerConnector [lobby] has connected
+[12:58:27] [Netty Worker IO Thread #3/INFO]: [/[0:0:0:0:0:0:0:1%0]:37768|Tony_time22] -> UpstreamBridge has disconnected
+[12:58:27] [Netty Worker IO Thread #3/INFO]: [Tony_time22] disconnected with: Proxy lost connection to server.
+[12:58:27] [Netty Worker IO Thread #3/INFO]: [/[0:0:0:0:0:0:0:1%0]:37768|Tony_time22] <-> DownstreamBridge <-> [lobby] has disconnected
+[13:00:18] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:42296]: Connected via websocket
+[13:00:18] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:42296]: Origin header is https://123-2.surge.sh
+[13:00:18] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:42296]: Logged in as 'Tony_time22'
+[13:00:18] [Netty Worker IO Thread #1/INFO]: [/[0:0:0:0:0:0:0:1%0]:42296|Tony_time22] -> UpstreamBridge has connected
+[13:00:18] [Netty Worker IO Thread #1/INFO]: [Tony_time22|/[0:0:0:0:0:0:0:1%0]:42296] <-> ServerConnector [lobby] has connected
+[13:01:30] [Netty Worker IO Thread #1/INFO]: [/[0:0:0:0:0:0:0:1%0]:46784|hamtanimpro] -> UpstreamBridge has disconnected
+[13:01:30] [Netty Worker IO Thread #1/INFO]: [hamtanimpro] disconnected with: Proxy lost connection to server.
+[13:01:30] [Netty Worker IO Thread #1/INFO]: [/[0:0:0:0:0:0:0:1%0]:46784|hamtanimpro] <-> DownstreamBridge <-> [lobby] has disconnected
+[13:02:10] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:44362]: Connected via websocket
+[13:02:10] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:44362]: Origin header is https://123-2.surge.sh
+[13:02:10] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:44362]: Logged in as 'hamtanimpro'
+[13:02:10] [Netty Worker IO Thread #2/INFO]: [/[0:0:0:0:0:0:0:1%0]:44362|hamtanimpro] -> UpstreamBridge has connected
+[13:02:10] [Netty Worker IO Thread #2/INFO]: [hamtanimpro|/[0:0:0:0:0:0:0:1%0]:44362] <-> ServerConnector [lobby] has connected
+[13:11:17] [Netty Worker IO Thread #3/INFO]: [/[0:0:0:0:0:0:0:1%0]:34882|SigmaSkibidi6_] -> UpstreamBridge has disconnected
+[13:11:17] [Netty Worker IO Thread #3/INFO]: [SigmaSkibidi6_] disconnected with: Proxy lost connection to server.
+[13:11:17] [Netty Worker IO Thread #3/INFO]: [/[0:0:0:0:0:0:0:1%0]:34882|SigmaSkibidi6_] <-> DownstreamBridge <-> [lobby] has disconnected
+[13:22:50] [Netty Worker IO Thread #1/INFO]: [/[0:0:0:0:0:0:0:1%0]:33728|J0rge_978] -> UpstreamBridge has disconnected
+[13:22:50] [Netty Worker IO Thread #1/INFO]: [J0rge_978] disconnected with: Proxy lost connection to server.
+[13:22:50] [Netty Worker IO Thread #1/INFO]: [/[0:0:0:0:0:0:0:1%0]:33728|J0rge_978] <-> DownstreamBridge <-> [lobby] has disconnected
+[13:24:03] [Netty Worker IO Thread #2/INFO]: [/[0:0:0:0:0:0:0:1%0]:44362|hamtanimpro] -> UpstreamBridge has disconnected
+[13:24:03] [Netty Worker IO Thread #2/INFO]: [hamtanimpro] disconnected with: Proxy lost connection to server.
+[13:24:03] [Netty Worker IO Thread #2/INFO]: [/[0:0:0:0:0:0:0:1%0]:44362|hamtanimpro] <-> DownstreamBridge <-> [lobby] has disconnected
+[13:24:30] [Netty Worker IO Thread #1/INFO]: [/[0:0:0:0:0:0:0:1%0]:42296|Tony_time22] -> UpstreamBridge has disconnected
+[13:24:30] [Netty Worker IO Thread #1/INFO]: [Tony_time22] disconnected with: Proxy lost connection to server.
+[13:24:30] [Netty Worker IO Thread #1/INFO]: [/[0:0:0:0:0:0:0:1%0]:42296|Tony_time22] <-> DownstreamBridge <-> [lobby] has disconnected
+[13:30:05] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:56734]: Connected via websocket
+[13:30:05] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:56734]: Origin header is https://123-2.surge.sh
+[13:30:05] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:56734]: Logged in as 'J0rge_978'
+[13:30:05] [Netty Worker IO Thread #1/INFO]: [/[0:0:0:0:0:0:0:1%0]:56734|J0rge_978] -> UpstreamBridge has connected
+[13:30:05] [Netty Worker IO Thread #1/INFO]: [J0rge_978|/[0:0:0:0:0:0:0:1%0]:56734] <-> ServerConnector [lobby] has connected
+[13:34:36] [Netty Worker IO Thread #1/INFO]: [/[0:0:0:0:0:0:0:1%0]:56734|J0rge_978] -> UpstreamBridge has disconnected
+[13:34:36] [Netty Worker IO Thread #1/INFO]: [J0rge_978] disconnected with: Proxy lost connection to server.
+[13:34:36] [Netty Worker IO Thread #1/INFO]: [/[0:0:0:0:0:0:0:1%0]:56734|J0rge_978] <-> DownstreamBridge <-> [lobby] has disconnected
+[13:34:48] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:33494]: Connected via websocket
+[13:34:48] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:33494]: Origin header is https://123-2.surge.sh
+[13:34:48] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:33494]: Logged in as 'J0rge_979'
+[13:34:48] [Netty Worker IO Thread #0/INFO]: [/[0:0:0:0:0:0:0:1%0]:33494|J0rge_979] -> UpstreamBridge has connected
+[13:34:48] [Netty Worker IO Thread #0/INFO]: [J0rge_979|/[0:0:0:0:0:0:0:1%0]:33494] <-> ServerConnector [lobby] has connected
+[13:39:15] [Netty Worker IO Thread #0/INFO]: [/[0:0:0:0:0:0:0:1%0]:33494|J0rge_979] -> UpstreamBridge has disconnected
+[13:39:15] [Netty Worker IO Thread #0/INFO]: [J0rge_979] disconnected with: Proxy lost connection to server.
+[13:39:15] [Netty Worker IO Thread #0/INFO]: [/[0:0:0:0:0:0:0:1%0]:33494|J0rge_979] <-> DownstreamBridge <-> [lobby] has disconnected
+[13:39:25] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:51430]: Connected via websocket
+[13:39:25] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:51430]: Origin header is https://123-2.surge.sh
+[13:39:25] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:51430]: Logged in as 'J0rge_978'
+[13:39:25] [Netty Worker IO Thread #3/INFO]: [/[0:0:0:0:0:0:0:1%0]:51430|J0rge_978] -> UpstreamBridge has connected
+[13:39:25] [Netty Worker IO Thread #3/INFO]: [J0rge_978|/[0:0:0:0:0:0:0:1%0]:51430] <-> ServerConnector [lobby] has connected
+[13:58:15] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:37814]: Connected via websocket
+[13:58:15] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:37814]: Origin header is https://123-2.surge.sh
+[13:58:15] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:37814]: Logged in as 'SigmaSkibidi6___'
+[13:58:15] [Netty Worker IO Thread #1/INFO]: [/[0:0:0:0:0:0:0:1%0]:37814|SigmaSkibidi6___] -> UpstreamBridge has connected
+[13:58:15] [Netty Worker IO Thread #1/INFO]: [SigmaSkibidi6___|/[0:0:0:0:0:0:0:1%0]:37814] <-> ServerConnector [lobby] has connected
+[13:58:45] [Netty Worker IO Thread #1/INFO]: [SigmaSkibidi6___] disconnected with: Login timed out!
+[13:58:45] [Netty Worker IO Thread #1/INFO]: [/[0:0:0:0:0:0:0:1%0]:37814|SigmaSkibidi6___] -> UpstreamBridge has disconnected
+[13:58:45] [Netty Worker IO Thread #1/INFO]: [/[0:0:0:0:0:0:0:1%0]:37814|SigmaSkibidi6___] <-> DownstreamBridge <-> [lobby] has disconnected
+[13:58:49] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:43474]: Connected via websocket
+[13:58:49] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:43474]: Origin header is https://123-2.surge.sh
+[13:58:49] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:43474]: Logged in as 'SigmaSkibidi6___'
+[13:58:49] [Netty Worker IO Thread #2/INFO]: [/[0:0:0:0:0:0:0:1%0]:43474|SigmaSkibidi6___] -> UpstreamBridge has connected
+[13:58:49] [Netty Worker IO Thread #2/INFO]: [SigmaSkibidi6___|/[0:0:0:0:0:0:0:1%0]:43474] <-> ServerConnector [lobby] has connected
+[14:02:56] [Netty Worker IO Thread #3/INFO]: [/[0:0:0:0:0:0:0:1%0]:51430|J0rge_978] -> UpstreamBridge has disconnected
+[14:02:56] [Netty Worker IO Thread #3/INFO]: [J0rge_978] disconnected with: Proxy lost connection to server.
+[14:02:56] [Netty Worker IO Thread #3/INFO]: [/[0:0:0:0:0:0:0:1%0]:51430|J0rge_978] <-> DownstreamBridge <-> [lobby] has disconnected
+[14:14:53] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:58292]: Connected via websocket
+[14:14:53] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:58292]: Origin header is https://123-2.surge.sh
+[14:14:54] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:58292]: Logged in as 'null_21'
+[14:14:54] [Netty Worker IO Thread #0/INFO]: [/[0:0:0:0:0:0:0:1%0]:58292|null_21] -> UpstreamBridge has connected
+[14:14:54] [Netty Worker IO Thread #0/INFO]: [null_21|/[0:0:0:0:0:0:0:1%0]:58292] <-> ServerConnector [lobby] has connected
+[14:26:23] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:46302]: Connected via websocket
+[14:26:23] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:46302]: Origin header is https://123-2.surge.sh
+[14:26:23] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:46302]: Logged in as 'hamtanimpro'
+[14:26:23] [Netty Worker IO Thread #2/INFO]: [/[0:0:0:0:0:0:0:1%0]:46302|hamtanimpro] -> UpstreamBridge has connected
+[14:26:23] [Netty Worker IO Thread #2/INFO]: [hamtanimpro|/[0:0:0:0:0:0:0:1%0]:46302] <-> ServerConnector [lobby] has connected
+[14:47:38] [Netty Worker IO Thread #2/INFO]: [/[0:0:0:0:0:0:0:1%0]:43474|SigmaSkibidi6___] -> UpstreamBridge has disconnected
+[14:47:38] [Netty Worker IO Thread #2/INFO]: [SigmaSkibidi6___] disconnected with: Proxy lost connection to server.
+[14:47:38] [Netty Worker IO Thread #2/INFO]: [/[0:0:0:0:0:0:0:1%0]:43474|SigmaSkibidi6___] <-> DownstreamBridge <-> [lobby] has disconnected
+[14:50:18] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:42700]: Connected via websocket
+[14:50:18] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:42700]: Origin header is https://123-2.surge.sh
+[14:50:18] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:42700]: Logged in as 'belietamer'
+[14:50:18] [Netty Worker IO Thread #0/INFO]: [/[0:0:0:0:0:0:0:1%0]:42700|belietamer] -> UpstreamBridge has connected
+[14:50:18] [Netty Worker IO Thread #0/INFO]: [belietamer|/[0:0:0:0:0:0:0:1%0]:42700] <-> ServerConnector [lobby] has connected
+[14:50:41] [Netty Worker IO Thread #0/INFO]: [/[0:0:0:0:0:0:0:1%0]:42700|belietamer] -> UpstreamBridge has disconnected
+[14:50:41] [Netty Worker IO Thread #0/INFO]: [belietamer] disconnected with: Proxy lost connection to server.
+[14:50:41] [Netty Worker IO Thread #0/INFO]: [/[0:0:0:0:0:0:0:1%0]:42700|belietamer] <-> DownstreamBridge <-> [lobby] has disconnected
+[14:51:45] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:36816]: Connected via websocket
+[14:51:45] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:36816]: Origin header is https://123-2.surge.sh
+[14:51:45] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:36816]: Logged in as 'J0rge_979'
+[14:51:45] [Netty Worker IO Thread #2/INFO]: [/[0:0:0:0:0:0:0:1%0]:36816|J0rge_979] -> UpstreamBridge has connected
+[14:51:45] [Netty Worker IO Thread #2/INFO]: [J0rge_979|/[0:0:0:0:0:0:0:1%0]:36816] <-> ServerConnector [lobby] has connected
+[14:51:50] [Netty Worker IO Thread #2/INFO]: [/[0:0:0:0:0:0:0:1%0]:36816|J0rge_979] -> UpstreamBridge has disconnected
+[14:51:50] [Netty Worker IO Thread #2/INFO]: [J0rge_979] disconnected with: Proxy lost connection to server.
+[14:51:50] [Netty Worker IO Thread #2/INFO]: [/[0:0:0:0:0:0:0:1%0]:36816|J0rge_979] <-> DownstreamBridge <-> [lobby] has disconnected
+[14:52:01] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:35560]: Connected via websocket
+[14:52:01] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:35560]: Origin header is https://123-2.surge.sh
+[14:52:01] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:35560]: Logged in as 'J0rge_978'
+[14:52:01] [Netty Worker IO Thread #1/INFO]: [/[0:0:0:0:0:0:0:1%0]:35560|J0rge_978] -> UpstreamBridge has connected
+[14:52:01] [Netty Worker IO Thread #1/INFO]: [J0rge_978|/[0:0:0:0:0:0:0:1%0]:35560] <-> ServerConnector [lobby] has connected
+[14:52:03] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:37360]: Connected via websocket
+[14:52:03] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:37360]: Origin header is https://123-2.surge.sh
+[14:52:03] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:37360]: Logged in as 'belietamer'
+[14:52:03] [Netty Worker IO Thread #2/INFO]: [/[0:0:0:0:0:0:0:1%0]:37360|belietamer] -> UpstreamBridge has connected
+[14:52:03] [Netty Worker IO Thread #2/INFO]: [belietamer|/[0:0:0:0:0:0:0:1%0]:37360] <-> ServerConnector [lobby] has connected
+[14:55:05] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:44436]: Connected via websocket
+[14:55:05] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:44436]: Origin header is https://123-2.surge.sh
+[14:55:05] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:44436]: Logged in as 'ishmailisskibidi'
+[14:55:05] [Netty Worker IO Thread #0/INFO]: [/[0:0:0:0:0:0:0:1%0]:44436|ishmailisskibidi] -> UpstreamBridge has connected
+[14:55:05] [Netty Worker IO Thread #0/INFO]: [ishmailisskibidi|/[0:0:0:0:0:0:0:1%0]:44436] <-> ServerConnector [lobby] has connected
+[14:57:13] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:35212]: Connected via websocket
+[14:57:13] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:35212]: Origin header is https://123-2.surge.sh
+[14:57:13] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:35212]: Logged in as 'aborisprooo'
+[14:57:13] [Netty Worker IO Thread #2/INFO]: [/[0:0:0:0:0:0:0:1%0]:35212|aborisprooo] -> UpstreamBridge has connected
+[14:57:13] [Netty Worker IO Thread #2/INFO]: [aborisprooo|/[0:0:0:0:0:0:0:1%0]:35212] <-> ServerConnector [lobby] has connected
+[14:57:43] [Netty Worker IO Thread #2/INFO]: [aborisprooo] disconnected with: Login timed out!
+[14:57:43] [Netty Worker IO Thread #2/INFO]: [/[0:0:0:0:0:0:0:1%0]:35212|aborisprooo] -> UpstreamBridge has disconnected
+[14:57:43] [Netty Worker IO Thread #2/INFO]: [/[0:0:0:0:0:0:0:1%0]:35212|aborisprooo] <-> DownstreamBridge <-> [lobby] has disconnected
+[14:59:58] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:60632]: Connected via websocket
+[14:59:58] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:60632]: Origin header is https://123-2.surge.sh
+[14:59:58] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:60632]: Logged in as 'aborisprooo'
+[14:59:58] [Netty Worker IO Thread #3/INFO]: [/[0:0:0:0:0:0:0:1%0]:60632|aborisprooo] -> UpstreamBridge has connected
+[14:59:58] [Netty Worker IO Thread #3/INFO]: [aborisprooo|/[0:0:0:0:0:0:0:1%0]:60632] <-> ServerConnector [lobby] has connected
+[15:15:13] [Netty Worker IO Thread #2/INFO]: [/[0:0:0:0:0:0:0:1%0]:37360|belietamer] -> UpstreamBridge has disconnected
+[15:15:13] [Netty Worker IO Thread #2/INFO]: [belietamer] disconnected with: Proxy lost connection to server.
+[15:15:13] [Netty Worker IO Thread #2/INFO]: [/[0:0:0:0:0:0:0:1%0]:37360|belietamer] <-> DownstreamBridge <-> [lobby] has disconnected
+[15:16:38] [Netty Worker IO Thread #0/INFO]: [/[0:0:0:0:0:0:0:1%0]:44436|ishmailisskibidi] -> UpstreamBridge has disconnected
+[15:16:38] [Netty Worker IO Thread #0/INFO]: [ishmailisskibidi] disconnected with: Proxy lost connection to server.
+[15:16:38] [Netty Worker IO Thread #0/INFO]: [/[0:0:0:0:0:0:0:1%0]:44436|ishmailisskibidi] <-> DownstreamBridge <-> [lobby] has disconnected
+[15:17:51] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:58896]: Connected via websocket
+[15:17:51] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:58896]: Origin header is https://123-2.surge.sh
+[15:17:51] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:58896]: Logged in as 'ishmailisskibidi'
+[15:17:51] [Netty Worker IO Thread #2/INFO]: [/[0:0:0:0:0:0:0:1%0]:58896|ishmailisskibidi] -> UpstreamBridge has connected
+[15:17:51] [Netty Worker IO Thread #2/INFO]: [ishmailisskibidi|/[0:0:0:0:0:0:0:1%0]:58896] <-> ServerConnector [lobby] has connected
+[15:22:11] [Netty Worker IO Thread #2/INFO]: [/[0:0:0:0:0:0:0:1%0]:58896|ishmailisskibidi] -> UpstreamBridge has disconnected
+[15:22:11] [Netty Worker IO Thread #2/INFO]: [ishmailisskibidi] disconnected with: Proxy lost connection to server.
+[15:22:11] [Netty Worker IO Thread #2/INFO]: [/[0:0:0:0:0:0:0:1%0]:58896|ishmailisskibidi] <-> DownstreamBridge <-> [lobby] has disconnected
+[15:22:20] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:47358]: Connected via websocket
+[15:22:20] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:47358]: Origin header is https://123-2.surge.sh
+[15:22:20] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:47358]: Logged in as 'ishmailisskibidi'
+[15:22:20] [Netty Worker IO Thread #3/INFO]: [/[0:0:0:0:0:0:0:1%0]:47358|ishmailisskibidi] -> UpstreamBridge has connected
+[15:22:20] [Netty Worker IO Thread #3/INFO]: [ishmailisskibidi|/[0:0:0:0:0:0:0:1%0]:47358] <-> ServerConnector [lobby] has connected
+[15:23:42] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:54744]: Connected via websocket
+[15:23:42] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:54744]: Origin header is https://123-2.surge.sh
+[15:23:42] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:54744]: Logged in as 'Tonytime'
+[15:23:42] [Netty Worker IO Thread #1/INFO]: [/[0:0:0:0:0:0:0:1%0]:54744|Tonytime] -> UpstreamBridge has connected
+[15:23:42] [Netty Worker IO Thread #1/INFO]: [Tonytime|/[0:0:0:0:0:0:0:1%0]:54744] <-> ServerConnector [lobby] has connected
+[15:30:09] [Netty Worker IO Thread #3/INFO]: [/[0:0:0:0:0:0:0:1%0]:60632|aborisprooo] -> UpstreamBridge has disconnected
+[15:30:09] [Netty Worker IO Thread #3/INFO]: [aborisprooo] disconnected with: Proxy lost connection to server.
+[15:30:09] [Netty Worker IO Thread #3/INFO]: [/[0:0:0:0:0:0:0:1%0]:60632|aborisprooo] <-> DownstreamBridge <-> [lobby] has disconnected
+[15:30:11] [Netty Worker IO Thread #3/INFO]: [/[0:0:0:0:0:0:0:1%0]:47358|ishmailisskibidi] -> UpstreamBridge has disconnected
+[15:30:11] [Netty Worker IO Thread #3/INFO]: [ishmailisskibidi] disconnected with: Proxy lost connection to server.
+[15:30:11] [Netty Worker IO Thread #3/INFO]: [/[0:0:0:0:0:0:0:1%0]:47358|ishmailisskibidi] <-> DownstreamBridge <-> [lobby] has disconnected
+[15:30:16] [Netty Worker IO Thread #1/INFO]: [/[0:0:0:0:0:0:0:1%0]:54744|Tonytime] -> UpstreamBridge has disconnected
+[15:30:16] [Netty Worker IO Thread #1/INFO]: [Tonytime] disconnected with: Proxy lost connection to server.
+[15:30:16] [Netty Worker IO Thread #1/INFO]: [/[0:0:0:0:0:0:0:1%0]:54744|Tonytime] <-> DownstreamBridge <-> [lobby] has disconnected
+[15:30:18] [Netty Worker IO Thread #0/INFO]: [/[0:0:0:0:0:0:0:1%0]:58292|null_21] -> UpstreamBridge has disconnected
+[15:30:18] [Netty Worker IO Thread #0/INFO]: [null_21] disconnected with: Proxy lost connection to server.
+[15:30:18] [Netty Worker IO Thread #0/INFO]: [/[0:0:0:0:0:0:0:1%0]:58292|null_21] <-> DownstreamBridge <-> [lobby] has disconnected
+[15:30:27] [Netty Worker IO Thread #2/INFO]: [/[0:0:0:0:0:0:0:1%0]:46302|hamtanimpro] -> UpstreamBridge has disconnected
+[15:30:27] [Netty Worker IO Thread #2/INFO]: [hamtanimpro] disconnected with: Proxy lost connection to server.
+[15:30:27] [Netty Worker IO Thread #2/INFO]: [/[0:0:0:0:0:0:0:1%0]:46302|hamtanimpro] <-> DownstreamBridge <-> [lobby] has disconnected
+[15:30:33] [Netty Worker IO Thread #1/INFO]: [/[0:0:0:0:0:0:0:1%0]:35560|J0rge_978] -> UpstreamBridge has disconnected
+[15:30:33] [Netty Worker IO Thread #1/INFO]: [J0rge_978] disconnected with: Proxy lost connection to server.
+[15:30:33] [Netty Worker IO Thread #1/INFO]: [/[0:0:0:0:0:0:0:1%0]:35560|J0rge_978] <-> DownstreamBridge <-> [lobby] has disconnected
+[15:39:55] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:41474]: Connected via websocket
+[15:39:55] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:41474]: Origin header is https://123-2.surge.sh
+[15:39:55] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:41474]: Logged in as 'aborisprooo'
+[15:39:55] [Netty Worker IO Thread #0/INFO]: [/[0:0:0:0:0:0:0:1%0]:41474|aborisprooo] -> UpstreamBridge has connected
+[15:39:55] [Netty Worker IO Thread #0/INFO]: [aborisprooo|/[0:0:0:0:0:0:0:1%0]:41474] <-> ServerConnector [lobby] has connected
+[15:48:28] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:54430]: Connected via websocket
+[15:48:28] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:54430]: Origin header is https://123-2.surge.sh
+[15:48:28] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:54430]: Logged in as 'J0rge_978'
+[15:48:28] [Netty Worker IO Thread #2/INFO]: [/[0:0:0:0:0:0:0:1%0]:54430|J0rge_978] -> UpstreamBridge has connected
+[15:48:28] [Netty Worker IO Thread #2/INFO]: [J0rge_978|/[0:0:0:0:0:0:0:1%0]:54430] <-> ServerConnector [lobby] has connected
+[15:54:07] [Netty Worker IO Thread #2/INFO]: [/[0:0:0:0:0:0:0:1%0]:54430|J0rge_978] -> UpstreamBridge has disconnected
+[15:54:07] [Netty Worker IO Thread #2/INFO]: [J0rge_978] disconnected with: Proxy lost connection to server.
+[15:54:07] [Netty Worker IO Thread #2/INFO]: [/[0:0:0:0:0:0:0:1%0]:54430|J0rge_978] <-> DownstreamBridge <-> [lobby] has disconnected
+[16:00:45] [Netty Worker IO Thread #0/INFO]: [/[0:0:0:0:0:0:0:1%0]:41474|aborisprooo] -> UpstreamBridge has disconnected
+[16:00:45] [Netty Worker IO Thread #0/INFO]: [aborisprooo] disconnected with: Proxy lost connection to server.
+[16:00:45] [Netty Worker IO Thread #0/INFO]: [/[0:0:0:0:0:0:0:1%0]:41474|aborisprooo] <-> DownstreamBridge <-> [lobby] has disconnected
+[16:00:52] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:55734]: Connected via websocket
+[16:00:52] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:55734]: Origin header is https://123-2.surge.sh
+[16:00:52] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:55734]: Logged in as 'aborisprooo'
+[16:00:52] [Netty Worker IO Thread #0/INFO]: [/[0:0:0:0:0:0:0:1%0]:55734|aborisprooo] -> UpstreamBridge has connected
+[16:00:52] [Netty Worker IO Thread #0/INFO]: [aborisprooo|/[0:0:0:0:0:0:0:1%0]:55734] <-> ServerConnector [lobby] has connected
+[16:01:17] [Netty Worker IO Thread #0/INFO]: [/[0:0:0:0:0:0:0:1%0]:55734|aborisprooo] -> UpstreamBridge has disconnected
+[16:01:17] [Netty Worker IO Thread #0/INFO]: [aborisprooo] disconnected with: Proxy lost connection to server.
+[16:01:17] [Netty Worker IO Thread #0/INFO]: [/[0:0:0:0:0:0:0:1%0]:55734|aborisprooo] <-> DownstreamBridge <-> [lobby] has disconnected
+[16:07:54] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:50670]: Connected via websocket
+[16:07:54] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:50670]: Origin header is https://123-2.surge.sh
+[16:07:54] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:50670]: Logged in as 'aborisprooo'
+[16:07:54] [Netty Worker IO Thread #1/INFO]: [/[0:0:0:0:0:0:0:1%0]:50670|aborisprooo] -> UpstreamBridge has connected
+[16:07:54] [Netty Worker IO Thread #1/INFO]: [aborisprooo|/[0:0:0:0:0:0:0:1%0]:50670] <-> ServerConnector [lobby] has connected
+[16:07:59] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:50686]: Connected via websocket
+[16:07:59] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:50686]: Origin header is https://123-2.surge.sh
+[16:08:00] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:50686]: Logged in as 'belietamer'
+[16:08:00] [Netty Worker IO Thread #3/INFO]: [/[0:0:0:0:0:0:0:1%0]:50686|belietamer] -> UpstreamBridge has connected
+[16:08:00] [Netty Worker IO Thread #3/INFO]: [belietamer|/[0:0:0:0:0:0:0:1%0]:50686] <-> ServerConnector [lobby] has connected
+[16:11:20] [Netty Worker IO Thread #1/INFO]: [/[0:0:0:0:0:0:0:1%0]:50670|aborisprooo] -> UpstreamBridge has disconnected
+[16:11:20] [Netty Worker IO Thread #1/INFO]: [aborisprooo] disconnected with: Proxy lost connection to server.
+[16:11:20] [Netty Worker IO Thread #1/INFO]: [/[0:0:0:0:0:0:0:1%0]:50670|aborisprooo] <-> DownstreamBridge <-> [lobby] has disconnected
+[16:16:21] [Netty Worker IO Thread #3/INFO]: [/[0:0:0:0:0:0:0:1%0]:50686|belietamer] -> UpstreamBridge has disconnected
+[16:16:21] [Netty Worker IO Thread #3/INFO]: [belietamer] disconnected with: Proxy lost connection to server.
+[16:16:21] [Netty Worker IO Thread #3/INFO]: [/[0:0:0:0:0:0:0:1%0]:50686|belietamer] <-> DownstreamBridge <-> [lobby] has disconnected
+[16:17:59] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:52714]: Connected via websocket
+[16:17:59] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:52714]: Origin header is https://123-2.surge.sh
+[16:18:00] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:52714]: Logged in as 'ishmailisskibidi'
+[16:18:00] [Netty Worker IO Thread #2/INFO]: [/[0:0:0:0:0:0:0:1%0]:52714|ishmailisskibidi] -> UpstreamBridge has connected
+[16:18:00] [Netty Worker IO Thread #2/INFO]: [ishmailisskibidi|/[0:0:0:0:0:0:0:1%0]:52714] <-> ServerConnector [lobby] has connected
+[16:18:11] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:34376]: Connected via websocket
+[16:18:11] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:34376]: Origin header is https://123-2.surge.sh
+[16:18:11] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:34376]: Logged in as 'belietamer'
+[16:18:11] [Netty Worker IO Thread #3/INFO]: [/[0:0:0:0:0:0:0:1%0]:34376|belietamer] -> UpstreamBridge has connected
+[16:18:11] [Netty Worker IO Thread #3/INFO]: [belietamer|/[0:0:0:0:0:0:0:1%0]:34376] <-> ServerConnector [lobby] has connected

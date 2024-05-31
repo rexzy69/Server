@@ -1,0 +1,20 @@
+[
+  {
+    "uuid": "e8ee64ff-0078-3191-810a-b59eff46fe80",
+    "name": "null_21",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "3206ba4c-968d-424c-877d-1547fa974d60",
+    "name": "null",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "57d44a20-84bf-3675-8ec7-24e41c6f40fd",
+    "name": "Alive",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  }
+]
